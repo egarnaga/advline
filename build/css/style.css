@@ -334,9 +334,23 @@ template {
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "";
+  font-family: "Inter";
   font-display: swap;
-  src: url("../fonts/.woff2") format("woff2"), url("../fonts/.woff") format("woff"); }
+  src: url("../fonts/inter-regular.woff2") format("woff2"), url("../fonts/inter-regular.woff") format("woff"); }
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Inter";
+  font-display: swap;
+  src: url("../fonts/inter-medium.woff2") format("woff2"), url("../fonts/inter-medium.woff") format("woff"); }
+
+@font-face {
+  font-style: italic;
+  font-weight: 500;
+  font-family: "Inter";
+  font-display: swap;
+  src: url("../fonts/inter-medium-italic.woff2") format("woff2"), url("../fonts/inter-medium-italic.woff") format("woff"); }
 
 *,
 *::before,
@@ -360,7 +374,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  font-family: "", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   color: #000000;
   background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
