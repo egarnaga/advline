@@ -1,0 +1,10 @@
+.main-nav__link {
+  color: $color-text-primary;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.main-nav__link--active {
+  color: $color-primary;
+}

@@ -23,7 +23,31 @@ gulp.task(`html`, function () {
       prefix: `@@`,
       basepath: `@root`,
       context: { // глобальные переменные для include
-        test: `text`
+        test: `text`,
+
+        headerActiveLinkIndex: null,
+        headerNavLinks: [
+          {
+            "text": "Услуги",
+            "href": "services.html"
+          },
+          {
+            "text": "Портфолио",
+            "href": "portfolio.html"
+          },
+          {
+            "text": "О нас",
+            "href": "about-us.html",
+          },
+          {
+            "text": "Блог",
+            "href": "blog.html"
+          },
+          {
+            "text": "Контакты",
+            "href": "contacts.html"
+          }
+        ]
       }
     }))
     .pipe(gulp.dest(`build`));

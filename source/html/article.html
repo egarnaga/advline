@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  @@include("source/html/base/head.html")
+  <title>ADVline — Статья</title>
+
+</head>
+<body>
+
+  <div style="display: none;">
+    @@include("build/img/sprite_auto.svg")
+  </div>
+
+  <div class="wrapper">
+    @@include("source/html/base/header.html", {
+      "main": false,
+      "headerActiveLinkIndex": 3
+    })
+
+    <main>
+      <div class="container">
+
+      </div>
+    </main>
+
+    @@include("source/html/base/footer.html")
+
+    @@include("source/html/base/modal.html", {
+      "name": "brief"
+    })
+
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>

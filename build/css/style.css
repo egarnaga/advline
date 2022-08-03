@@ -545,12 +545,6 @@ button,
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .header a,
-  .header p {
-    color: #010302;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase; }
   .header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -564,6 +558,15 @@ button,
       margin-right: 20px; }
   .header .main-nav__toggle {
     display: none; }
+
+.main-nav__link {
+  color: #010302;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase; }
+
+.main-nav__link--active {
+  color: #DE054C; }
 
 .footer {
   min-height: 100px;

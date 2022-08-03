@@ -26,7 +26,7 @@
 
 <link rel="stylesheet" href="css/style.min.css">
 
-  <title>ADVline — Главная</title>
+  <title>ADVline — Портфолио</title>
 
 </head>
 <body>
@@ -46,7 +46,7 @@
   <div class="wrapper">
     <header class="header ">
   <div class="header__wrapper">
-    <a class="header__logo"  aria-label="Переход на главную">
+    <a class="header__logo"  href="main.html" aria-label="Переход на главную">
       <!-- 1x: 45px; 2x: 90px -->
       <img src="../../img/content/logo@1x.png" srcset="../../img/content/logo@2x.png 2x" width="45" height="37" alt="Логотип">
     </a>
@@ -63,7 +63,7 @@
             <a class="main-nav__link "  href="#" >Услуги</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Портфолио</a>
+            <a class="main-nav__link  main-nav__link--active " >Портфолио</a>
           </li>
           <li class="main-nav__item">
             <a class="main-nav__link "  href="about-us.html" >О нас</a>
@@ -80,7 +80,7 @@
           
             <li class="main-nav__item"><a class="main-nav__link" href="services.html">Услуги</a></li>
           
-            <li class="main-nav__item"><a class="main-nav__link" href="portfolio.html">Портфолио</a></li>
+            <li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">Портфолио</a></li>
           
             <li class="main-nav__item"><a class="main-nav__link" href="about-us.html">О нас</a></li>
           
@@ -100,8 +100,7 @@
 
     <main>
       <div class="container">
-        <p><a href="#" data-modal="feedback">modal--feedback link</a></p>
-        <p><a href="#" data-modal="success">modal--success link</a></p>
+
       </div>
     </main>
 
@@ -126,43 +125,6 @@
   </div>
 </div>
 
-
-    <div class="modal modal--preload modal--feedback    ">
-  <div class="modal__wrapper">
-    <div class="modal__overlay"></div>
-    <div class="modal__content">
-
-      <p class="modal__description">Обычная модалка</p>
-
-
-      <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап">
-        <svg width="15" height="15">
-          <use xlink:href="#icon-close"></use>
-        </svg>
-      </button>
-
-    </div>
-  </div>
-</div>
-
-
-    <div class="modal modal--preload modal--success   modal--fit-content   modal--no-scale   modal--some-mod ">
-  <div class="modal__wrapper">
-    <div class="modal__overlay"></div>
-    <div class="modal__content">
-
-      <p class="modal__description">Размер этой модалки зависит от ширины контента,<br> отключена анимация-скейл и передан модификатор `some-mod`</p>
-
-
-      <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап">
-        <svg width="15" height="15">
-          <use xlink:href="#icon-close"></use>
-        </svg>
-      </button>
-
-    </div>
-  </div>
-</div>
 
   </div>
 
