@@ -3,7 +3,7 @@
 <head>
 
   @@include("source/html/base/head.html")
-  <title>ProjectName — Главная</title>
+  <title>ADVline — Главная</title>
 
 </head>
 <body>
@@ -25,6 +25,10 @@
     </main>
 
     @@include("source/html/base/footer.html")
+
+    @@include("source/html/base/modal.html", {
+      "name": "brief"
+    })
 
     @@include("source/html/base/modal.html", {
       "name": "feedback"

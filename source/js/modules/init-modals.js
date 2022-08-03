@@ -6,6 +6,9 @@ const modalFeedbackBtns = document.querySelectorAll('[data-modal="feedback"]');
 const modalSuccess = document.querySelector('.modal--success');
 const modalSuccessBtns = document.querySelectorAll('[data-modal="success"]');
 
+const modalBrief = document.querySelector('.modal--brief');
+const modalBriefBtns = document.querySelectorAll('[data-modal="brief"]');
+
 // аргументы setupModal(modal, closeCallback, modalBtns, openCallback, noPrevDefault)
 // возможна инициализация только с первыми аргументом,
 // если вам нужно открывать модалку в другом месте под какими-нибудь условиями
@@ -26,6 +29,9 @@ const initModals = () => {
   }
   if (modalSuccess && modalSuccessBtns.length) {
     setupModal(modalSuccess, false, modalSuccessBtns);
+  }
+  if (modalBrief && modalBriefBtns.length) {
+    setupModal(modalBrief, false, modalBriefBtns);
   }
 };
 
