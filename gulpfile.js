@@ -26,26 +26,33 @@ gulp.task(`html`, function () {
         test: `text`,
 
         headerActiveLinkIndex: null,
-        headerNavLinks: [
+        headerListFirstLinks: [
           {
             "text": "Услуги",
-            "href": "services.html"
+            "href": "services.html",
+            "index": 0
           },
           {
             "text": "Портфолио",
-            "href": "portfolio.html"
-          },
+            "href": "portfolio.html",
+            "index": 1
+          }
+        ],
+        headerListSecondLinks: [
           {
-            "text": "О нас",
+            "text": "О&nbsp;нас",
             "href": "about-us.html",
+            "index": 2
           },
           {
             "text": "Блог",
-            "href": "blog.html"
+            "href": "blog.html",
+            "index": 3
           },
           {
             "text": "Контакты",
-            "href": "contacts.html"
+            "href": "contacts.html",
+            "index": 4
           }
         ]
       }

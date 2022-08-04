@@ -84,45 +84,30 @@
   </div>
 
   <div class="wrapper">
-    <header class="header ">
+    <header class="header container ">
   <div class="header__wrapper">
     <a class="header__logo"  href="main.html" aria-label="Переход на главную">
       <!-- 1x: 45px; 2x: 90px -->
       <img src="../../img/content/logo@1x.png" srcset="../../img/content/logo@2x.png 2x" width="45" height="37" alt="Логотип">
     </a>
 
-    <nav class="main-nav">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle btn-reset" type="button" aria-label="Переключатель отображения меню" aria-pressed="false">
-        <svg width="20" height="20">
-          <use xlink:href="#icon-burger"></use>
-        </svg>
+        <!-- <svg width="20" height="20">
+          <use xlink:href="#icon-open"></use>
+        </svg> -->
       </button>
       <div class="main-nav__wrapper">
-        <!-- <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Услуги</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Портфолио</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="about-us.html" >О нас</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Блог</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Контакты</a>
-          </li>
-        </ul> -->
-
-        <ul class="main-nav__list">
+        <ul class="main-nav__list-first">
           
             <li class="main-nav__item"><a class="main-nav__link" href="services.html">Услуги</a></li>
           
             <li class="main-nav__item"><a class="main-nav__link" href="portfolio.html">Портфолио</a></li>
           
-            <li class="main-nav__item"><a class="main-nav__link" href="about-us.html">О нас</a></li>
+        </ul>
+        <ul class="main-nav__list-second">
+          
+            <li class="main-nav__item"><a class="main-nav__link" href="about-us.html">О&nbsp;нас</a></li>
           
             <li class="main-nav__item"><a class="main-nav__link" href="blog.html">Блог</a></li>
           
@@ -132,7 +117,9 @@
       </div>
     </nav>
 
-    <p><a href="#" data-modal="brief">modal--brief link</a></p>
+    <p>
+      <a class="btn" href="#" data-modal="brief">Отправить бриф</a>
+    </p>
 
   </div>
 </header>

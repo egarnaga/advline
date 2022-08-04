@@ -1,0 +1,19 @@
+.btn {
+  display: block;
+
+  //width: 100%;
+  //max-width: 100%;
+
+  padding-top: 11px;
+  padding-bottom: 9px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  background-color: $color-background;
+  color: $color-default-white;
+
+  border-radius: 40px;
+}

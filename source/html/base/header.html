@@ -1,46 +1,37 @@
-<header class="header @@if (context.mod) { header--@@mod }">
+<header class="header container @@if (context.mod) { header--@@mod }">
   <div class="header__wrapper">
     <a class="header__logo" @@if (!context.main) { href="main.html"} aria-label="Переход на главную">
       <!-- 1x: 45px; 2x: 90px -->
       <img src="../../img/content/logo@1x.png" srcset="../../img/content/logo@2x.png 2x" width="45" height="37" alt="Логотип">
     </a>
 
-    <nav class="main-nav">
+    <nav class="main-nav main-nav--closed main-nav--nojs">
       <button class="main-nav__toggle btn-reset" type="button" aria-label="Переключатель отображения меню" aria-pressed="false">
-        <svg width="20" height="20">
-          <use xlink:href="#icon-burger"></use>
-        </svg>
+        <!-- <svg width="20" height="20">
+          <use xlink:href="#icon-open"></use>
+        </svg> -->
       </button>
       <div class="main-nav__wrapper">
-        <!-- <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 0) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 0) { href="#" }>Услуги</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 1) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 1) { href="#" }>Портфолио</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 2) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 2) { href="about-us.html" }>О нас</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 3) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 3) { href="#" }>Блог</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 4) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 4) { href="#" }>Контакты</a>
-          </li>
-        </ul> -->
-
-        <ul class="main-nav__list">
-          @@for (var i = 0; i < headerNavLinks.length; i++) {
+        <ul class="main-nav__list-first">
+          @@for (var i = 0; i < headerListFirstLinks.length; i++) {
             `+(i == headerActiveLinkIndex ?
-            '<li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">'+headerNavLinks[i].text+'</a></li>' :
-            '<li class="main-nav__item"><a class="main-nav__link" href="'+headerNavLinks[i].href+'">'+headerNavLinks[i].text+'</a></li>')+`
+            '<li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">'+headerListFirstLinks[i].text+'</a></li>' :
+            '<li class="main-nav__item"><a class="main-nav__link" href="'+headerListFirstLinks[i].href+'">'+headerListFirstLinks[i].text+'</a></li>')+`
+          }
+        </ul>
+        <ul class="main-nav__list-second">
+          @@for (var i = 0; i < headerListSecondLinks.length; i++) {
+            `+(i + 2 == headerActiveLinkIndex ?
+            '<li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">'+headerListSecondLinks[i].text+'</a></li>' :
+            '<li class="main-nav__item"><a class="main-nav__link" href="'+headerListSecondLinks[i].href+'">'+headerListSecondLinks[i].text+'</a></li>')+`
           }
         </ul>
       </div>
     </nav>
 
-    <p><a href="#" data-modal="brief">modal--brief link</a></p>
+    <p>
+      <a class="btn" href="#" data-modal="brief">Отправить бриф</a>
+    </p>
 
   </div>
 </header>
