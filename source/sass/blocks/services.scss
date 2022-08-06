@@ -1,6 +1,24 @@
 .services {
+  position: relative;
+
   padding-top: 212px;
   padding-bottom: 100px;
+}
+
+.services::before {
+  content: "";
+  position: absolute;
+  //top: 155px;
+  //left: -60px;
+  //bottom: 20px;
+  //right: 20px;
+  top: 22px;
+  width: 100%;
+  height: 1px;
+  z-index: 1;
+  z-index: 100;
+
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .services h1 {
@@ -13,6 +31,11 @@
   letter-spacing: -0.03em;
 
   color: $color-text-additional;
+}
+
+.services h1 b {
+  font-weight: 500;
+  margin-right: -22px;
 }
 
 .services h1 span {
@@ -32,6 +55,9 @@
 }
 
 .services__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
   margin: 0;
   padding: 0;
 
