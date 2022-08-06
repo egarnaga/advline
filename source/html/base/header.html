@@ -2,7 +2,7 @@
   <div class="header__wrapper">
     <a class="header__logo" @@if (!context.main) { href="main.html"} aria-label="Переход на главную">
       <!-- 1x: 45px; 2x: 90px -->
-      <img src="../../img/content/logo@1x.png" srcset="../../img/content/logo@2x.png 2x" width="45" height="37" alt="Логотип">
+      <img src="img/content/logo@1x.png" srcset="img/content/logo@2x.png 2x" width="45" height="37" alt="Логотип">
     </a>
 
     <nav class="main-nav main-nav--closed main-nav--nojs">
@@ -13,18 +13,108 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list-first">
-          @@for (var i = 0; i < headerListFirstLinks.length; i++) {
-            `+(i == headerActiveLinkIndex ?
-            '<li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">'+headerListFirstLinks[i].text+'</a></li>' :
-            '<li class="main-nav__item"><a class="main-nav__link" href="'+headerListFirstLinks[i].href+'">'+headerListFirstLinks[i].text+'</a></li>')+`
-          }
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="services.html">Услуги</a>
+            <div>
+              <ul>
+                <li>
+                  <a href="#">Стратегический маркетинг</a>
+                </li>
+                <li>
+                  <a href="#">Брендинг</a>
+                </li>
+                <li>
+                  <a href="#">Креатив и дизайн</a>
+                </li>
+                <li>
+                  <a href="#">Web-разработка</a>
+
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <span>1</span>
+                        <p>Landing page</p>
+                        <div>Создадим...</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>2</span>
+                        <p>Сайт на основе шаблона</p>
+                        <div>Создадим...</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>3</span>
+                        <p>Программирование</p>
+                        <div>Создадим...</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>4</span>
+                        <p>Мобильная web-разработка</p>
+                        <div>Создадим мобильную версию, разработаем приложение.</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>5</span>
+                        <p>Сайты</p>
+                        <div>Создадим...</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>6</span>
+                        <p>Вёрстка</p>
+                        <div>Создадим...</div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span>7</span>
+                        <p>Поддержка сайтов</p>
+                        <div>Создадим...</div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Digital-услуги</a>
+                </li>
+                <li>
+                  <a href="#">PR</a>
+                </li>
+                <li>
+                  <a href="#">Репутация</a>
+                </li>
+                <li>
+                  <a href="#">Производство рекламы</a>
+                </li>
+                <li>
+                  <a href="#">Event</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="portfolio.html">Портфолио</a>
+          </li>
         </ul>
         <ul class="main-nav__list-second">
-          @@for (var i = 0; i < headerListSecondLinks.length; i++) {
-            `+(i + 2 == headerActiveLinkIndex ?
-            '<li class="main-nav__item"><a class="main-nav__link  main-nav__link--active">'+headerListSecondLinks[i].text+'</a></li>' :
-            '<li class="main-nav__item"><a class="main-nav__link" href="'+headerListSecondLinks[i].href+'">'+headerListSecondLinks[i].text+'</a></li>')+`
-          }
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="about-us.html">О&nbsp;нас</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="blog.html">Блог</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="contacts.html">Контакты</a>
+          </li>
         </ul>
       </div>
     </nav>

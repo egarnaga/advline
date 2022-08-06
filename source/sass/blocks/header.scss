@@ -30,10 +30,13 @@
 
 .header__wrapper p {
   margin: 0;
+
+  border-radius: 40px;
 }
 
 @media  screen and (max-width: 768px) {
   .header__wrapper p {
+    min-width: 175px;
     margin-right: 80px;
   }
 }

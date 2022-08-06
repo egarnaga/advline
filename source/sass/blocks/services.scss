@@ -1,0 +1,39 @@
+.services {
+  padding-top: 212px;
+  padding-bottom: 100px;
+}
+
+.services h1 {
+
+  margin: 0;
+
+  font-weight: 500;
+  font-size: 160px;
+  line-height: 128px;
+  letter-spacing: -0.03em;
+
+  color: $color-text-additional;
+}
+
+.services h1 span {
+
+  font-style: italic;
+  letter-spacing: -0.01em;
+}
+
+.services p {
+  margin: 0;
+  padding-top: 54px;
+  padding-bottom: 95px;
+
+  font-size: 44px;
+  line-height: 44px;
+  color: $color-text-additional;
+}
+
+.services__cards {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
