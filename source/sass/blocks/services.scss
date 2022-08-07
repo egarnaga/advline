@@ -89,6 +89,12 @@
   margin-right: -22px;
 }
 
+@media  screen and (max-width: 768px) {
+  .services h1 b {
+    margin-right: -10px;
+  }
+}
+
 .services h1 span {
 
   font-style: italic;
@@ -119,6 +125,12 @@
 
     font-size: 21px;
     line-height: 21px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .services p {
+    padding-bottom: 63px;
   }
 }
 
