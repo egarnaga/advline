@@ -12,7 +12,7 @@ const mobileCasesSlider = () => {
           slidesPerView: 1,
           spaceBetween: 10,
           loop: true,
-          slideClass: 'card',
+          slideClass: 'cases__slider-card',
           // pagination: {
           // 	el: '.swiper-pagination',
           // 	clickable: true,
