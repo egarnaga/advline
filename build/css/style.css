@@ -1139,12 +1139,18 @@ button,
     line-height: 13px; } }
 
 .cases {
+  padding-top: 100px; }
+
+.cases h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 78px;
+  line-height: 82px; }
+
+.blog {
   min-height: 500px;
   padding-top: 100px;
   background-color: green; }
-
-.cases h2 {
-  margin: 0; }
 
 .blog h2 {
   margin: 0; }
