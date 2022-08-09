@@ -5,6 +5,24 @@ const mobileCasesSlider = () => {
   let sliderCases;
 
   if (slider) {
+    if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
+      sliderCases = new Swiper('.cases__slider-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        slideClass: 'cases__slider-card',
+        // pagination: {
+        // 	el: '.swiper-pagination',
+        // 	clickable: true,
+        // },
+      });
+
+      slider.dataset.mobile = 'true';
+    }
+  }
+
+
+  if (slider) {
     window.addEventListener('resize', () => {
 
       if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {

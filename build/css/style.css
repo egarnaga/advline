@@ -1150,10 +1150,11 @@ button,
   .cases {
     padding-top: 56px; } }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
   .cases {
     padding-top: 30px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px;
+    background-color: green; } }
 
 .cases__wrapper {
   display: -webkit-box;
@@ -1238,7 +1239,7 @@ button,
     line-height: 22px;
     text-align: left; } }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
   .cases {
     padding-top: 20px;
     padding-bottom: 38px;
@@ -1251,6 +1252,11 @@ button,
         -ms-flex-order: 3;
             order: 3; } }
 
+@media screen and (max-width: 600px) {
+  .cases__slider-container {
+    width: 100%;
+    overflow: hidden; } }
+
 .cases__slider-container a {
   line-height: 0; }
 
@@ -1261,6 +1267,17 @@ button,
   grid-template-columns: repeat(4, 25%);
   -ms-grid-rows: (auto)[2];
   grid-template-rows: repeat(2, auto); }
+
+@media screen and (max-width: 600px) {
+  .cases__slider-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; } }
 
 .cases__slider-card {
   position: relative;
@@ -1321,6 +1338,31 @@ button,
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1; } }
+
+@media screen and (max-width: 600px) {
+  .cases__slider-card:nth-child(3n - 1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; } }
+
+@media screen and (max-width: 600px) {
+  .cases__slider-card:nth-child(3n - 2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+@media screen and (max-width: 600px) {
+  .cases__slider-card:nth-child(3n) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; } }
+
+@media screen and (max-width: 600px) {
+  .cases__slider-card {
+    width: 100%;
+    margin: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; } }
 
 @media screen and (max-width: 768px) {
   .cases__img {
@@ -1704,7 +1746,7 @@ button,
 .blog {
   min-height: 500px;
   padding-top: 100px;
-  background-color: green; }
+  background-color: greenyellow; }
 
 .blog h2 {
   margin: 0; }
