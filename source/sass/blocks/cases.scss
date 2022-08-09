@@ -1,5 +1,6 @@
 .cases {
   padding-top: 100px;
+  padding-bottom: 100px;
 
   //background-color: green;
 }
@@ -34,6 +35,167 @@
 }
 
 
+.cases__slider-container {
+  //display: flex;
+  //flex-direction: column;
+  //gap: 10px;
+
+  //width: 100%;
+  //overflow: hidden;
+
+}
+
+.cases__slider-container a {
+  line-height: 0;
+}
+
+
+.cases__slider-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, auto);
+}
+
+.cases__slider-card {
+
+  //max-width: 1400px;
+  padding-bottom: 6.3%;
+
+  grid-column-start: span 4;
+  grid-row-start: span 1;
+}
+
+.cases__slider-card:nth-child(3n - 1),
+.cases__slider-card:nth-child(3n) {
+  //max-width: 696px;
+
+  padding-bottom: 0;
+
+  grid-column-start: span 2;
+  grid-row-start: span 1;
+}
+
+.cases__slider-card:nth-child(3n - 1) {
+  padding-right: 5px;
+}
+
+.cases__slider-card:nth-child(3n) {
+  //justify-self: end;
+  padding-left: 5px;
+}
+
+
+
+.cases__slider-card picture {
+
+  line-height: 0;
+}
+
+.cases__slider-card img {
+  width: 100%;
+  line-height: 0;
+  object-fit: cover;
+}
+
+.cases__tags {
+  display: none;
+}
+
+
+
+.cases__description {
+  display: flex;
+
+  padding-top: 2.6%;
+}
+
+
+.cases__brand {
+  padding-top: 14px;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-default-black;
+
+  text-transform: uppercase;
+}
+
+.cases__slider-card:nth-child(3n - 1) .cases__brand,
+.cases__slider-card:nth-child(3n) .cases__brand {
+  padding-top: 4.6%;
+}
+
+.cases__text-wrap {
+  display: flex;
+  padding-left: 10.4%;
+}
+
+.cases__slider-card:nth-child(3n - 1) .cases__text-wrap,
+.cases__slider-card:nth-child(3n) .cases__text-wrap {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 2.5%;
+
+  padding-left: 25.8%;
+  padding-right: 5%;
+}
+
+.cases__card-heading {
+  width: 47.4%;
+
+  padding-left: 5px;
+}
+
+.cases__slider-card:nth-child(3n - 1) .cases__card-heading,
+.cases__slider-card:nth-child(3n) .cases__card-heading {
+  width: 100%;
+  margin-bottom: 11%;
+}
+
+.cases__card-heading h3 {
+  width: 100%;
+  margin: 0;
+  padding-right: 10px;
+
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $color-default-black;
+
+  opacity: 0.4;
+}
+
+.cases__text-wrap dl {
+  margin: 0;
+  //padding-top: 3px;
+  padding-left: 0.5%;
+
+  font-size: 28px;
+  line-height: 36px;
+  color: $color-default-black;
+
+}
+
+.cases__text-wrap dl div {
+  display: flex;
+}
+
+.cases__text-wrap dl dt {
+  padding-right: 4px;
+}
+
+.cases__text-wrap dl dd {
+  margin: 0;
+  margin-bottom: 5px;
+
+}
+
+.cases__btn-link {
+  max-width: 288px;
+  margin-top: 8.79%;
+  margin-left: 50.5%;
+}
+
 
 
 
@@ -61,10 +223,6 @@
   padding-bottom: 50px;
 } */
 
-.cases__slider-container {
-  overflow: hidden;
-  width: 100%;
-}
 
 /* .cases__slider-container .swiper-wrapper {
   justify-content: space-between;
