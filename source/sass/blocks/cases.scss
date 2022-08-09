@@ -139,6 +139,19 @@
   padding-left: 5px;
 }
 
+@media  screen and (max-width: 768px) {
+  .cases__slider-card:nth-child(3n - 1),
+  .cases__slider-card:nth-child(3n){
+
+    padding-bottom: 6.3%;
+    padding-left: 0;
+    padding-right: 0px;
+
+    grid-column-start: span 4;
+    grid-row-start: span 1;
+  }
+}
+
 
 
 .cases__slider-card picture {
@@ -306,8 +319,8 @@
 
 @media  screen and (max-width: 955px) {
   .cases__btn-link {
-    right: 55px;
     max-width: 230px;
+    margin-top: 80px;
   }
 }
 

@@ -1239,6 +1239,17 @@ button,
 .cases__slider-card:nth-child(3n) {
   padding-left: 5px; }
 
+@media screen and (max-width: 768px) {
+  .cases__slider-card:nth-child(3n - 1),
+  .cases__slider-card:nth-child(3n) {
+    padding-bottom: 6.3%;
+    padding-left: 0;
+    padding-right: 0px;
+    -ms-grid-column: span 4;
+        grid-column-start: span 4;
+    -ms-grid-row: span 1;
+        grid-row-start: span 1; } }
+
 .cases__slider-card picture {
   line-height: 0; }
 
@@ -1365,8 +1376,8 @@ button,
 
 @media screen and (max-width: 955px) {
   .cases__btn-link {
-    right: 55px;
-    max-width: 230px; } }
+    max-width: 230px;
+    margin-top: 80px; } }
 
 /* swiper-bullets styling */
 /* .cases .swiper-pagination-bullet {
