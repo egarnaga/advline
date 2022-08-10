@@ -1903,7 +1903,7 @@ button,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 1.4%; }
+  gap: 0.8%; }
 
 @media screen and (max-width: 768px) {
   .blog__slider-wrapper {
@@ -1921,7 +1921,7 @@ button,
     gap: 0; } }
 
 .blog__article-card {
-  width: 49.3%;
+  width: 49.1%;
   margin-bottom: 30px; }
 
 @media screen and (max-width: 768px) {
@@ -2145,7 +2145,7 @@ button,
 .footer {
   min-height: 100px;
   padding: 0 60px;
-  background-color: #2c39f2; }
+  background-color: #DE054C; }
 
 .modal {
   position: fixed;
