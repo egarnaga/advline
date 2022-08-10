@@ -35,6 +35,12 @@
   }
 }
 
+@media  screen and (max-width: 600px) {
+  .btn-link {
+    justify-content: center;
+  }
+}
+
 
 .btn-link::before {
   content: "";

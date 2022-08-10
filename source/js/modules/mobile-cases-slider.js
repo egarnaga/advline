@@ -7,14 +7,18 @@ const mobileCasesSlider = () => {
   if (slider) {
     if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
       sliderCases = new Swiper('.cases__slider-container', {
-        slidesPerView: 1,
+        slidesPerView: 'auto',
         spaceBetween: 10,
-        loop: true,
+        //loop: true,
         slideClass: 'cases__slider-card',
-        // pagination: {
-        // 	el: '.swiper-pagination',
-        // 	clickable: true,
-        // },
+        pagination: {
+         	el: '.swiper-pagination',
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+          },
+         },
+
       });
 
       slider.dataset.mobile = 'true';
@@ -27,14 +31,17 @@ const mobileCasesSlider = () => {
 
       if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
         sliderCases = new Swiper('.cases__slider-container', {
-          slidesPerView: 1,
+          slidesPerView: 'auto',
           spaceBetween: 10,
-          loop: true,
+          //loop: true,
           slideClass: 'cases__slider-card',
-          // pagination: {
-          // 	el: '.swiper-pagination',
-          // 	clickable: true,
-          // },
+           pagination: {
+           	el: '.swiper-pagination',
+           	clickable: true,
+             renderBullet: function (index, className) {
+              return '<span class="' + className + '">' + (index + 1) + '</span>';
+            },
+           },
         });
 
         slider.dataset.mobile = 'true';
