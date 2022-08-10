@@ -1430,6 +1430,11 @@ button,
         -ms-flex-order: 1;
             order: 1; } }
 
+@media screen and (max-width: 600px) {
+  .cases__tags {
+    padding-top: 5.7%;
+    padding-left: 6%; } }
+
 @media screen and (max-width: 768px) {
   .cases__tags span {
     margin-right: 10px;
@@ -1567,6 +1572,11 @@ button,
     padding-left: 0;
     padding-top: 0; } }
 
+@media screen and (max-width: 600px) {
+  .cases__slider-card:nth-child(3n - 1) .cases__text-wrap,
+  .cases__slider-card:nth-child(3n) .cases__text-wrap {
+    padding-right: 0; } }
+
 .cases__card-heading {
   width: 47.4%;
   padding-left: 5px; }
@@ -1575,6 +1585,10 @@ button,
   .cases__card-heading {
     padding-left: 10px;
     padding-bottom: 10px; } }
+
+@media screen and (max-width: 768px) {
+  .cases__card-heading {
+    width: 100%; } }
 
 .cases__slider-card:nth-child(3n - 1) .cases__card-heading,
 .cases__slider-card:nth-child(3n) .cases__card-heading {
@@ -1677,7 +1691,6 @@ button,
   .cases__btn-link {
     width: 100%;
     max-width: 100%;
-    margin-top: 12px;
     margin-bottom: 50px;
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
@@ -1695,13 +1708,38 @@ button,
     margin-left: 0; } }
 
 /* swiper-bullets styling */
-.cases .swiper-pagination-bullet {
+@media screen and (max-width: 600px) {
+  .cases .swiper-pagination-bullets {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px; } }
+
+@media screen and (max-width: 600px) {
+  .cases .swiper-pagination-bullet {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    opacity: 0.45;
+    cursor: pointer; } }
+
+@media screen and (max-width: 600px) {
+  .cases .swiper-pagination-bullet-active {
+    opacity: 1; } }
+
+/* .cases .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
   margin: 0 15px;
   background-color: tomato;
-  opacity: 1; }
-
+  opacity: 1;
+}
+ */
 /* .cases .swiper-pagination-bullet-active {
   background-color: navy;
 }
@@ -1799,7 +1837,7 @@ button,
 .blog {
   min-height: 500px;
   padding-top: 100px;
-  background-color: greenyellow; }
+  background-color: green; }
 
 .blog h2 {
   margin: 0; }
