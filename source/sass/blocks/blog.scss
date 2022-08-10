@@ -407,8 +407,12 @@
 
 /* swiper-bullets styling */
 
+.blog__pagination {
+  display: none;
+}
+
 @media  screen and (max-width: 600px) {
-  .blog .swiper-pagination-bullets {
+  .blog__pagination {
     display: flex;
     justify-content: center;
   }

@@ -1709,8 +1709,11 @@ button,
     margin-left: 0; } }
 
 /* swiper-bullets styling */
+.cases__pagination {
+  display: none; }
+
 @media screen and (max-width: 600px) {
-  .cases .swiper-pagination-bullets {
+  .cases__pagination {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2113,8 +2116,11 @@ button,
     margin-left: 0; } }
 
 /* swiper-bullets styling */
+.blog__pagination {
+  display: none; }
+
 @media screen and (max-width: 600px) {
-  .blog .swiper-pagination-bullets {
+  .blog__pagination {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

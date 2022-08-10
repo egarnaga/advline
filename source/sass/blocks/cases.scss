@@ -701,8 +701,12 @@
 
 /* swiper-bullets styling */
 
+.cases__pagination {
+  display: none;
+}
+
 @media  screen and (max-width: 600px) {
-  .cases .swiper-pagination-bullets {
+  .cases__pagination {
     display: flex;
     justify-content: center;
     margin-top: 20px;
