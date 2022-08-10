@@ -1,17 +1,17 @@
-const mobileCasesSlider = () => {
+const mobileBlogSlider = () => {
 
-  let slider = document.querySelector('.cases__slider-container');
+  let slider = document.querySelector('.blog__slider-container');
 
   let sliderCases;
 
   if (slider) {
     if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
-      sliderCases = new Swiper('.cases__slider-container', {
+      sliderCases = new Swiper('.blog__slider-container', {
         slidesPerView: 'auto',
         spaceBetween: 10,
-        slideClass: 'cases__slider-card',
+        slideClass: 'blog__article-card',
         pagination: {
-         	el: '.cases__pagination',
+         	el: '.blog__pagination',
           clickable: true,
           renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -29,12 +29,12 @@ const mobileCasesSlider = () => {
     window.addEventListener('resize', () => {
 
       if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
-        sliderCases = new Swiper('.cases__slider-container', {
+        sliderCases = new Swiper('.blog__slider-container', {
           slidesPerView: 'auto',
           spaceBetween: 10,
-          slideClass: 'cases__slider-card',
+          slideClass: 'blog__article-card',
            pagination: {
-           	el: '.cases__pagination',
+           	el: '.blog__pagination',
            	clickable: true,
              renderBullet: function (index, className) {
               return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -58,6 +58,4 @@ const mobileCasesSlider = () => {
 
 };
 
-export {mobileCasesSlider};
-
-
+export {mobileBlogSlider};
