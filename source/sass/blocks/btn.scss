@@ -17,3 +17,21 @@
 
   border-radius: 40px;
 }
+
+.btn--light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 23px;
+  padding-bottom: 23px;
+
+  font-size: 28px;
+  line-height: 34px;
+  color: $color-text-primary;
+
+  text-transform: uppercase;
+
+  background-color: $color-default-white;
+  border-radius: 90px;
+}

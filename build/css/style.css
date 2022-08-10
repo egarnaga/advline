@@ -763,6 +763,25 @@ button,
   color: #ffffff;
   border-radius: 40px; }
 
+.btn--light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  font-size: 28px;
+  line-height: 34px;
+  color: #010302;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 90px; }
+
 .services {
   position: relative;
   padding-top: 212px;
@@ -2143,9 +2162,18 @@ button,
     opacity: 1; } }
 
 .footer {
-  min-height: 100px;
-  padding: 0 60px;
+  min-height: 641px;
   background-color: #DE054C; }
+
+.footer__appeal {
+  margin: 0;
+  font-size: 160px;
+  line-height: 128px;
+  color: #ffffff; }
+
+.footer__btn {
+  max-width: 662px;
+  border-radius: 90px; }
 
 .modal {
   position: fixed;
