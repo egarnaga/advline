@@ -35,3 +35,24 @@
   background-color: $color-default-white;
   border-radius: 90px;
 }
+
+@media  screen and (max-width: 1070px) {
+  .btn--light {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media  screen and (max-width: 900px) {
+  .btn--light {
+    padding-top: 11px;
+    padding-bottom: 9px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .btn--light {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
