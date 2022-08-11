@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  @@include("source/html/base/head.html")
+  <title>ADVline — Блог</title>
+
+</head>
+<body>
+
+  <div style="display: none;">
+    @@include("build/img/sprite_auto.svg")
+  </div>
+
+  <div class="wrapper">
+    @@include("source/html/base/header.html", {
+      "main": false,
+      "headerActiveLinkIndex": 3
+    })
+
+    <main>
+      <div class="container">
+        <section class="blog-page">
+
+          <div class="blog-page__text">
+            <h1>Блог</h1>
+
+            <p>Рассказываем о том, что любим.</p>
+          </div>
+
+          <h2 class="visually-hidden">Статьи</h2>
+
+          <div class="blog-page__wrap">
+            <ul class="blog-page__filter">
+              <li class="blog-page__item">
+                <a href="#">все статьи</a>
+              </li>
+              <li class="blog-page__item">
+                <a href="#">дизайн</a>
+              </li>
+              <li class="blog-page__item">
+                <a href="#">Маркетинг</a>
+              </li>
+              <li class="blog-page__item">
+                <a href="#">digital</a>
+              </li>
+              <li class="blog-page__item">
+                <a href="#">smm</a>
+              </li>
+              <li class="blog-page__item">
+                <a href="#">стратегия</a>
+              </li>
+            </ul>
+
+            <div class="blog-page__slider-container">
+              <div class="swiper-wrapper blog-page__slider-wrapper">
+
+                <div class="blog-page__article-card">
+                  <a href="#">
+                    <article>
+
+                      <div class="blog-page__img">
+                        <picture>
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source type="image/webp" media="(max-width: 768px)" srcset="img/content/blog-card-1-tablet@1x.webp 1x, img/content/blog-card-1-tablet@2x.webp 2x">
+
+                          <!-- 1x: 696px; 2x: 1392px -->
+                          <source type="image/webp" srcset="img/content/blog-card-1-desktop@1x.webp 1x, img/content/blog-card-1-desktop@2x.webp 2x">
+
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source media="(max-width: 768px)" srcset="img/content/blog-card-1-tablet@1x.jpg 1x, img/content/blog-card-1-tablet@2x.jpg 2x">
+
+                          <!-- 1x: 696px; 2x: 1392px -->
+                          <img src="img/content/blog-card-1-desktop@1x.jpg" srcset="img/content/blog-card-1-desktop@2x.jpg 2x" alt="">
+                        </picture>
+                      </div>
+
+                      <div class="blog-page__description">
+                        <div class="blog-page__text-wrap">
+                          <div class="blog-page__tag">
+                            <span>digital</span>
+                          </div>
+                          <time class="blog-page__date" datetime="2022-04-20">
+                            <span>20.04.2022</span>
+                          </time>
+                        </div>
+
+                        <div class="blog-page__card-heading">
+                          <h3>Качественный видеоконтент: лучше один раз увидеть</h3>
+                        </div>
+                      </div>
+                    </article>
+                  </a>
+                </div>
+
+                <div class="blog-page__article-card">
+                  <a href="#">
+                    <article>
+
+                      <div class="blog-page__img">
+                        <picture>
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source type="image/webp" media="(max-width: 768px)" srcset="img/content/blog-card-2-tablet@1x.webp 1x, img/content/blog-card-2-tablet@2x.webp 2x">
+
+                          <!-- 1x: 694px; 2x: 1388px -->
+                          <source type="image/webp" srcset="img/content/blog-card-2-desktop@1x.webp 1x, img/content/blog-card-2-desktop@2x.webp 2x">
+
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source media="(max-width: 768px)" srcset="img/content/blog-card-2-tablet@1x.jpg 1x, img/content/blog-card-2-tablet@2x.jpg 2x">
+
+                          <!-- 1x: 694px; 2x: 1388px -->
+                          <img src="img/content/blog-card-2-desktop@1x.jpg" srcset="img/content/blog-card-2-desktop@2x.jpg 2x" alt="">
+                        </picture>
+                      </div>
+
+                      <div class="blog-page__description">
+                        <div class="blog-page__text-wrap">
+                          <div class="blog-page__tag">
+                            <span>digital</span>
+                          </div>
+                          <time class="blog-page__date" datetime="2022-04-18">
+                            <span>18.04.2022</span>
+                          </time>
+                        </div>
+
+                        <div class="blog-page__card-heading">
+                          <h3>Умные чат-боты: праздник, который всегда онлайн</h3>
+                        </div>
+                      </div>
+                    </article>
+                  </a>
+                </div>
+
+                <div class="blog-page__article-card">
+                  <a href="#">
+                    <article>
+
+                      <div class="blog-page__img">
+                        <picture>
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source type="image/webp" media="(max-width: 768px)" srcset="img/content/blog-card-4-tablet@1x.webp 1x, img/content/blog-card-4-tablet@2x.webp 2x">
+
+                          <!-- 1x: 690px; 2x: 1380px -->
+                          <source type="image/webp" srcset="img/content/blog-card-4-desktop@1x.webp 1x, img/content/blog-card-4-desktop@2x.webp 2x">
+
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source media="(max-width: 768px)" srcset="img/content/blog-card-4-tablet@1x.jpg 1x, img/content/blog-card-4-tablet@2x.jpg 2x">
+
+                          <!-- 1x: 690px; 2x: 1380px -->
+                          <img src="img/content/blog-card-4-desktop@1x.jpg" srcset="img/content/blog-card-4-desktop@2x.jpg 2x" alt="">
+                        </picture>
+                      </div>
+
+                      <div class="blog-page__description">
+                        <div class="blog-page__text-wrap">
+                          <div class="blog-page__tag">
+                            <span>Маркетинг</span>
+                          </div>
+                          <time class="blog-page__date" datetime="2022-04-14">
+                            <span>14.04.2022</span>
+                          </time>
+                        </div>
+
+                        <div class="blog-page__card-heading">
+                          <h3>Performance Marketing: миф или реальность?</h3>
+                        </div>
+                      </div>
+                    </article>
+                  </a>
+                </div>
+
+                <div class="blog-page__article-card">
+                  <a href="#">
+                    <article>
+
+                      <div class="blog-page__img">
+                        <picture>
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source type="image/webp" media="(max-width: 768px)" srcset="img/content/blog-card-3-tablet@1x.webp 1x, img/content/blog-card-3-tablet@2x.webp 2x">
+
+                          <!-- 1x: 696px; 2x: 1392px -->
+                          <source type="image/webp" srcset="img/content/blog-card-3-desktop@1x.webp 1x, img/content/blog-card-3-desktop@2x.webp 2x">
+
+                          <!-- 1x: 359px; 2x: 718px -->
+                          <source media="(max-width: 768px)" srcset="img/content/blog-card-3-tablet@1x.jpg 1x, img/content/blog-card-3-tablet@2x.jpg 2x">
+
+                          <!-- 1x: 696px; 2x: 1392px -->
+                          <img src="img/content/blog-card-3-desktop@1x.jpg" srcset="img/content/blog-card-3-desktop@2x.jpg 2x" alt="">
+                        </picture>
+                      </div>
+
+                      <div class="blog-page__description">
+                        <div class="blog-page__text-wrap">
+                          <div class="blog-page__tag">
+                            <span>digital</span>
+                          </div>
+                          <time class="blog-page__date" datetime="2022-04-12">
+                            <span>12.04.2022</span>
+                          </time>
+                        </div>
+
+                        <div class="blog-page__card-heading">
+                          <h3>Умные чат-боты: праздник, который всегда онлайн</h3>
+                        </div>
+                      </div>
+                    </article>
+                  </a>
+                </div>
+
+                <div class="blog-page__article-card">
+                  <a href="#">
+                    <article>
+
+                      <div class="blog-page__img">
+                        <picture>
+
+                          <!-- 1x: 695px; 2x: 1390px -->
+                          <source type="image/webp" srcset="img/content/blog-card-5-desktop@1x.webp 1x, img/content/blog-card-5-desktop@2x.webp 2x">
+
+
+                          <!-- 1x: 695px; 2x: 1390px -->
+                          <img src="img/content/blog-card-5-desktop@1x.jpg" srcset="img/content/blog-card-5-desktop@2x.jpg 2x" alt="">
+                        </picture>
+                      </div>
+
+                      <div class="blog-page__description">
+                        <div class="blog-page__text-wrap">
+                          <div class="blog-page__tag">
+                            <span>digital</span>
+                          </div>
+                          <time class="blog-page__date" datetime="2022-04-12">
+                            <span>12.04.2022</span>
+                          </time>
+                        </div>
+
+                        <div class="blog-page__card-heading">
+                          <h3>Умные чат-боты: праздник, который всегда онлайн</h3>
+                        </div>
+                      </div>
+                    </article>
+                  </a>
+                </div>5
+
+
+
+              </div>
+            </div>
+
+            <div class="blog-page__buttons">
+              <div class="blog-page__btn-link">
+                <a class="btn-link" href="#">Читать еще</a>
+              </div>
+
+              <div class="blog-page__buttons-wrap">
+                <button class="blog-page__button-prev">назад</button>
+
+                <div class="blog-page__pagination-bullets">
+                  <span class="pagination-bullet">1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>13</span>
+                </div>
+
+			          <button class="blog-page__button-next">вперед</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </main>
+
+    @@include("source/html/base/footer.html")
+
+    @@include("source/html/base/modal.html", {
+      "name": "brief"
+    })
+
+  </div>
+
+  <script src="js/vendor.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
