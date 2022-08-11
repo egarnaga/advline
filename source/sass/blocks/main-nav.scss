@@ -263,7 +263,11 @@
   }
 }
 
-
+@media  screen and (max-width: 768px) {
+  .main-nav__link--active::before {
+    top: 11px;
+  }
+}
 
 
 
@@ -457,3 +461,6 @@
     line-height: 17px;
   }
 }
+
+
+
