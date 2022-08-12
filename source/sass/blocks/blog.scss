@@ -151,13 +151,14 @@
   .blog__slider-wrapper {
     display: flex;
     justify-content: initial;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+
   }
 }
 
 @media  screen and (max-width: 600px) {
   .blog__slider-wrapper {
-    gap: 0;
+    flex-wrap: nowrap;
   }
 }
 
@@ -200,6 +201,7 @@
 }
 
 .blog__img img {
+  width: 100%;
   line-height: 0;
 }
 
@@ -261,6 +263,7 @@
   text-transform: uppercase;
 
   color: $color-default-black;
+  border-radius: 20px;
 }
 
 @media  screen and (max-width: 768px) {
