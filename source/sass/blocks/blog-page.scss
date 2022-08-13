@@ -443,6 +443,7 @@
   background-color: $color-background;
   box-shadow: none;
   border: none;
+  cursor: pointer;
 }
 
 .blog-page__button-prev span,
@@ -485,7 +486,7 @@
   }
 }
 
-.pagination-bullet {
+.blog-page__pagination-bullet {
   margin-right: 10px;
 
   font-size: 18px;
@@ -494,22 +495,23 @@
 
   text-transform: uppercase;
   opacity: 0.45;
+  cursor: pointer;
 }
 
 @media  screen and (max-width: 768px) {
-  .pagination-bullet {
+  .blog-page__pagination-bullet {
     font-size: 14px;
     line-height: 17px;
   }
 }
 
 
-.pagination-bullet:nth-child(4n) {
+.blog-page__pagination-bullet:nth-child(4n) {
   position: relative;
   padding-right: 50px;
 }
 
-.pagination-bullet:nth-child(4n)::before {
+.blog-page__pagination-bullet:nth-child(4n)::before {
   content: "";
   position: absolute;
 
@@ -524,7 +526,7 @@
 }
 
 @media  screen and (max-width: 768px) {
-  .pagination-bullet:nth-child(4n)::before {
+  .blog-page__pagination-bullet:nth-child(4n)::before {
     height: 1px;
 
     bottom: 8px;
@@ -533,6 +535,6 @@
   }
 }
 
-.pagination-bullet--active {
+.blog-page__pagination-bullet--active {
   opacity: 1;
 }

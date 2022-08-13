@@ -140,6 +140,9 @@
   }
 }
 
+
+
+
 @media  screen and (max-width: 768px) {
   .cases__slider-container {
     width: 100%;
@@ -188,7 +191,8 @@
 
 @media  screen and (max-width: 768px) {
   .cases__slider-card {
-    min-height: 460px;
+    min-height: 460px;  //
+    max-height: 460px;
 
     margin-bottom: 20px;
     padding-bottom: 0
@@ -281,7 +285,8 @@
     position: absolute;
 
     width: 100%;
-    min-height: 460px;
+    min-height: 460px;  //
+    max-height: 460px;
 
 
     z-index: 1;
@@ -314,7 +319,8 @@
 @media  screen and (max-width: 768px) {
   .cases__img img {
 
-    min-height: 460px;
+    min-height: 460px;  //@at-root
+    max-height: 460px;
 
   }
 }
@@ -385,12 +391,14 @@
   .cases__description  {
     position: relative;
     flex-wrap: wrap;
-    min-height: 460px;
+    min-height: 460px;  //
+    max-height: 460px;
 
     padding-top: 0;
 
     background-image: url(../img/bg/shadow.png);
     background-position: bottom;
+    background-size: 100%;
     background-repeat: no-repeat;
     z-index: 10;
   }
