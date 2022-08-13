@@ -558,7 +558,7 @@ button,
 @media screen and (max-width: 768px) {
   .header__logo img {
     position: relative;
-    z-index: 20; } }
+    z-index: 2000; } }
 
 .header__btn {
   margin: 0;
@@ -587,7 +587,7 @@ button,
 @media screen and (max-width: 768px) {
   .header__btn .btn {
     position: relative;
-    z-index: 20; } }
+    z-index: 2000; } }
 
 @media screen and (max-width: 580px) {
   .header__btn .btn {
@@ -613,12 +613,6 @@ button,
   .main-nav {
     width: 65%; } }
 
-/* @media  screen and (max-width: 768px) {
-  .main-nav {
-
-  }
-}
- */
 .main-nav__toggle {
   display: none; }
 
@@ -627,7 +621,7 @@ button,
     position: absolute;
     top: 9.5px;
     right: 7px;
-    z-index: 12;
+    z-index: 1200;
     display: block;
     width: 40px;
     height: 40px;
@@ -656,7 +650,7 @@ button,
     padding-top: 73px;
     padding-left: 15px;
     background-color: #ffffff;
-    z-index: 10; }
+    z-index: 1000; }
   .main-nav--nojs .main-nav__toggle {
     display: none; }
   .main-nav--nojs .main-nav__wrapper {
