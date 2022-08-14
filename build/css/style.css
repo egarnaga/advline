@@ -3478,6 +3478,10 @@ button,
 .portfolio__pagination-bullet--active {
   opacity: 1; }
 
+.about-us {
+  padding-top: 40px;
+  padding-bottom: 160px; }
+
 .footer {
   padding-top: 40px;
   padding-bottom: 36px;
