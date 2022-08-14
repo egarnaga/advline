@@ -42,6 +42,12 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15 14H0V13H15V14ZM15 8H0V7H15V8ZM15 2H0V1H15V2Z" fill="white"/>
 </symbol><symbol id="icon-open" viewBox="0 0 15 15">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15 14H0V13H15V14ZM15 8H0V7H15V8ZM15 2H0V1H15V2Z" fill="#010302"/>
+</symbol><symbol id="icon-play" viewBox="0 0 100 100">
+<rect width="100" height="100" rx="50" fill="white"/>
+<path d="M46 59L62 50.5L46 42V59Z" fill="#DE054C"/>
+</symbol><symbol id="icon-scroll" viewBox="0 0 80 80">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.1667 51.5163L28.775 39.1301L27.5 40.1899L40.035 55L52.5 40.1899L51.2267 39.1285L40.8333 51.518V25H39.1667V51.5163Z" fill="#010302"/>
+<rect x="0.5" y="0.5" width="79" height="79" rx="39.5" stroke="#010302"/>
 </symbol></svg>
   </div>
 
@@ -210,7 +216,28 @@
           <section class="about-us__features">
 
             <div class="about-us__features-wrap">
-              <img src="" alt="">
+
+              <div class="about-us__features-img">
+                <picture>
+                  <!-- 1x: 355px; 2x: 710px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-image-mobile@1x.webp 1x, img/content/about-us-image-mobile@2x.webp 2x">
+
+                  <!-- 1x: 482px; 2x: 964px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-image-tablet@1x.webp 1x, img/content/about-us-image-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-image-desktop@1x.webp 1x, img/content/about-us-image-desktop@2x.webp 2x">
+
+                  <!-- 1x: 355px; 2x: 710px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-image-mobile@1x.jpg 1x, img/content/about-us-image-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 482px; 2x: 964px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-image-tablet@1x.jpg 1x, img/content/about-us-image-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-image-desktop@1x.jpg" srcset="img/content/about-us-image-desktop@2x.jpg 2x" alt="">
+                </picture>
+              </div>
 
               <div class="about-us__features-text">
                 <h2>Мы Команда</h2>
@@ -246,25 +273,27 @@
 
               <div class="about-us__video-image about-us__video-image--enabled">
                 <a href="#">
-                  <picture>
-                    <!-- 1x: px; 2x: px -->
-                    <source type="image/webp" media="(max-width: 560px)" srcset="img/video-bike-mobile@1x.webp 1x, img/video-bike-mobile@2x.webp 2x">
+                  <div class="about-us__video-img">
+                    <picture>
+                      <!-- 1x: 355px; 2x: 710px -->
+                      <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-video-mobile@1x.webp 1x, img/content/about-us-video-mobile@2x.webp 2x">
 
-                    <!-- 1x: px; 2x: px -->
-                    <source type="image/webp" media="(max-width: 768px)" srcset="img/video-bike-tablet@1x.webp 1x, img/video-bike-tablet@2x.webp 2x">
+                      <!-- 1x: 728px; 2x: 1456px -->
+                      <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-video-tablet@1x.webp 1x, img/content/about-us-video-tablet@2x.webp 2x">
 
-                    <!-- 1x: px; 2x: px -->
-                    <source type="image/webp" srcset="img/video-bike-desktop@1x.webp 1x, img/video-bike-desktop@2x.webp 2x">
+                      <!-- 1x: 1400px; 2x: 2800px -->
+                      <source type="image/webp" srcset="img/content/about-us-video-desktop@1x.webp 1x, img/content/about-us-video-desktop@2x.webp 2x">
 
-                    <!-- 1x: px; 2x: px -->
-                    <source media="(max-width: 560px)" srcset="img/video-bike-mobile@1x.jpg 1x, img/video-bike-mobile@2x.jpg 2x">
+                      <!-- 1x: 355px; 2x: 710px -->
+                      <source media="(max-width: 540px)" srcset="img/content/about-us-video-mobile@1x.jpg 1x, img/content/about-us-video-mobile@2x.jpg 2x">
 
-                    <!-- 1x: px; 2x: px -->
-                    <source media="(max-width: 768px)" srcset="img/video-bike-tablet@1x.jpg 1x, img/video-bike-tablet@2x.jpg 2x">
+                      <!-- 1x: 728px; 2x: 1456px -->
+                      <source media="(max-width: 768px)" srcset="img/content/about-us-video-tablet@1x.jpg 1x, img/content/about-us-video-tablet@2x.jpg 2x">
 
-                    <!-- 1x: px; 2x: px -->
-                    <img src="img/video-bike-desktop@1x.jpg" srcset="img/video-bike-desktop@2x.jpg 2x" alt="">
-                  </picture>
+                      <!-- 1x: 1400px; 2x: 2800px -->
+                      <img src="img/content/about-us-video-desktop@1x.jpg" srcset="img/content/about-us-video-desktop@2x.jpg 2x" alt="">
+                    </picture>
+                  </div>
                 </a>
 
                 <button class="about-us__video-button" type="button" aria-label="Запустить видео">
@@ -310,49 +339,193 @@
 
             <ul class="about-us__team-list">
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-1-mobile@1x.webp 1x, img/content/about-us-card-1-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-1-tablet@1x.webp 1x, img/content/about-us-card-1-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-1-desktop@1x.webp 1x, img/content/about-us-card-1-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-1-mobile@1x.jpg 1x, img/content/about-us-card-1-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-1-tablet@1x.jpg 1x, img/content/about-us-card-1-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-1-desktop@1x.jpg" srcset="img/content/about-us-card-1-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Екатерина Пьянкова</p>
                 <span>PR</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-2-mobile@1x.webp 1x, img/content/about-us-card-2-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-2-tablet@1x.webp 1x, img/content/about-us-card-2-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-2-desktop@1x.webp 1x, img/content/about-us-card-2-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-2-mobile@1x.jpg 1x, img/content/about-us-card-2-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-2-tablet@1x.jpg 1x, img/content/about-us-card-2-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-2-desktop@1x.jpg" srcset="img/content/about-us-card-2-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Илья Богданов</p>
                 <span>Менеджер проектов</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-3-mobile@1x.webp 1x, img/content/about-us-card-3-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-3-tablet@1x.webp 1x, img/content/about-us-card-3-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-3-desktop@1x.webp 1x, img/content/about-us-card-3-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-3-mobile@1x.jpg 1x, img/content/about-us-card-3-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-3-tablet@1x.jpg 1x, img/content/about-us-card-3-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-3-desktop@1x.jpg" srcset="img/content/about-us-card-3-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Илья Федоров</p>
                 <span>Дизайн-лид</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-4-mobile@1x.webp 1x, img/content/about-us-card-4-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-4-tablet@1x.webp 1x, img/content/about-us-card-4-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-4-desktop@1x.webp 1x, img/content/about-us-card-4-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-4-mobile@1x.jpg 1x, img/content/about-us-card-4-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-4-tablet@1x.jpg 1x, img/content/about-us-card-4-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-4-desktop@1x.jpg" srcset="img/content/about-us-card-4-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Екатерина Пьянкова</p>
                 <span>Менеджер проектов</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-5-mobile@1x.webp 1x, img/content/about-us-card-5-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-5-tablet@1x.webp 1x, img/content/about-us-card-5-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-5-desktop@1x.webp 1x, img/content/about-us-card-5-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-5-mobile@1x.jpg 1x, img/content/about-us-card-5-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-5-tablet@1x.jpg 1x, img/content/about-us-card-5-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-5-desktop@1x.jpg" srcset="img/content/about-us-card-5-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Илья Федоров</p>
                 <span>PR</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-6-mobile@1x.webp 1x, img/content/about-us-card-6-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-6-tablet@1x.webp 1x, img/content/about-us-card-6-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-6-desktop@1x.webp 1x, img/content/about-us-card-6-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-6-mobile@1x.jpg 1x, img/content/about-us-card-6-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-6-tablet@1x.jpg 1x, img/content/about-us-card-6-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-6-desktop@1x.jpg" srcset="img/content/about-us-card-6-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Илья Федоров</p>
                 <span>Дизайн-лид</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-7-mobile@1x.webp 1x, img/content/about-us-card-7-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-7-tablet@1x.webp 1x, img/content/about-us-card-7-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-7-desktop@1x.webp 1x, img/content/about-us-card-7-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-7-mobile@1x.jpg 1x, img/content/about-us-card-7-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-7-tablet@1x.jpg 1x, img/content/about-us-card-7-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-7-desktop@1x.jpg" srcset="img/content/about-us-card-7-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Екатерина Пьянкова</p>
                 <span>PR</span>
               </li>
 
               <li>
-                <img src="" alt="">
+                <picture>
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source type="image/webp" media="(max-width: 540px)" srcset="img/content/about-us-card-8-mobile@1x.webp 1x, img/content/about-us-card-8-mobile@2x.webp 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source type="image/webp" media="(max-width: 768px)" srcset="img/content/about-us-card-8-tablet@1x.webp 1x, img/content/about-us-card-8-tablet@2x.webp 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <source type="image/webp" srcset="img/content/about-us-card-8-desktop@1x.webp 1x, img/content/about-us-card-8-desktop@2x.webp 2x">
+
+                  <!-- 1x: 172px; 2x: 344px -->
+                  <source media="(max-width: 540px)" srcset="img/content/about-us-card-8-mobile@1x.jpg 1x, img/content/about-us-card-8-mobile@2x.jpg 2x">
+
+                  <!-- 1x: 236px; 2x: 472px -->
+                  <source media="(max-width: 768px)" srcset="img/content/about-us-card-8-tablet@1x.jpg 1x, img/content/about-us-card-8-tablet@2x.jpg 2x">
+
+                  <!-- 1x: 460px; 2x: 920px -->
+                  <img src="img/content/about-us-card-8-desktop@1x.jpg" srcset="img/content/about-us-card-8-desktop@2x.jpg 2x" alt="">
+                </picture>
                 <p>Илья Федоренко</p>
                 <span>Менеджер проектов</span>
               </li>
