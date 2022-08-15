@@ -1,0 +1,70 @@
+.team h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px;
+}
+
+@media  screen and (max-width: 768px) {
+  .team h2 {
+    font-size: 59px;
+    line-height: 62px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .team h2 {
+    font-size: 27px;
+    line-height: 28px;
+  }
+}
+
+.team__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.team__list li p {
+  margin: 0;
+
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@media  screen and (max-width: 768px) {
+  .team__list li p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .team__list li p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+.team__list li span {
+  font-size: 28px;
+  line-height: 36px;
+
+  opacity: 0.5;
+}
+
+@media  screen and (max-width: 768px) {
+  .team__list li span {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .team__list li span {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,73 @@
+.vacancies h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px;
+}
+
+@media  screen and (max-width: 768px) {
+  .vacancies h2 {
+    font-size: 59px;
+    line-height: 62px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .vacancies h2 {
+    font-size: 27px;
+    line-height: 28px;
+  }
+}
+
+.vacancies p {
+  margin: 0;
+
+  font-size: 44px;
+  line-height: 53px;
+}
+
+@media  screen and (max-width: 768px) {
+  .vacancies p {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .vacancies p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.vacancies__table tr td {
+  font-size: 28px;
+  line-height: 34px;
+
+  text-transform: uppercase;
+}
+
+@media  screen and (max-width: 768px) {
+  .vacancies__table tr td {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .vacancies__table tr td {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.vacancies__table tr td table td {
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: none;
+}
+
+
+.about-us__vacancies-btn .btn {}

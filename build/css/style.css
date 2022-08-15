@@ -360,7 +360,8 @@ template {
 
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 html,
 body {
@@ -3501,184 +3502,28 @@ button,
     font-size: 59px;
     line-height: 62px; } }
 
-.about-us__video h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 100px;
-  line-height: 105px; }
+.features {
+  position: relative; }
 
-@media screen and (max-width: 768px) {
-  .about-us__video h2 {
-    font-size: 59px;
-    line-height: 62px; } }
+.features__btn {
+  position: absolute;
+  top: 16%;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%; }
 
-@media screen and (max-width: 540px) {
-  .about-us__video h2 {
-    font-size: 27px;
-    line-height: 28px; } }
+@media screen and (max-width: 1100px) {
+  .features__btn {
+    display: none; } }
 
-.about-us__video-tagline p {
-  margin: 0;
-  font-size: 44px;
-  line-height: 53px; }
+.features__btn a {
+  display: block;
+  line-height: 0;
+  border-radius: 100%; }
 
-@media screen and (max-width: 768px) {
-  .about-us__video-tagline p {
-    font-size: 24px;
-    line-height: 29px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__video-tagline p {
-    font-size: 18px;
-    line-height: 22px; } }
-
-.about-us__principles h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 100px;
-  line-height: 105px;
-  text-align: right; }
-
-@media screen and (max-width: 768px) {
-  .about-us__principles h2 {
-    font-size: 59px;
-    line-height: 62px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__principles h2 {
-    font-size: 27px;
-    line-height: 28px; } }
-
-.about-us__principles-list dt {
-  font-size: 44px;
-  line-height: 44px; }
-
-@media screen and (max-width: 768px) {
-  .about-us__principles-list dt {
-    font-size: 24px;
-    line-height: 24px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__principles-list dt {
-    font-size: 20px;
-    line-height: 20px; } }
-
-.about-us__principles-list dd {
-  margin: 0;
-  font-size: 28px;
-  line-height: 36px; }
-
-@media screen and (max-width: 768px) {
-  .about-us__principles-list dd {
-    font-size: 18px;
-    line-height: 23px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__principles-list dd {
-    font-size: 16px;
-    line-height: 21px; } }
-
-.about-us__team h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 100px;
-  line-height: 105px; }
-
-@media screen and (max-width: 768px) {
-  .about-us__team h2 {
-    font-size: 59px;
-    line-height: 62px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__team h2 {
-    font-size: 27px;
-    line-height: 28px; } }
-
-.about-us__team-list {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.about-us__team-list li p {
-  margin: 0;
-  font-size: 28px;
-  line-height: 36px; }
-
-@media screen and (max-width: 768px) {
-  .about-us__team-list li p {
-    font-size: 18px;
-    line-height: 23px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__team-list li p {
-    font-size: 16px;
-    line-height: 21px; } }
-
-.about-us__team-list li span {
-  font-size: 28px;
-  line-height: 36px;
-  opacity: 0.5; }
-
-@media screen and (max-width: 768px) {
-  .about-us__team-list li span {
-    font-size: 19px;
-    line-height: 25px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__team-list li span {
-    font-size: 16px;
-    line-height: 21px; } }
-
-.about-us__vacancies h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 100px;
-  line-height: 105px; }
-
-@media screen and (max-width: 768px) {
-  .about-us__vacancies h2 {
-    font-size: 59px;
-    line-height: 62px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__vacancies h2 {
-    font-size: 27px;
-    line-height: 28px; } }
-
-.about-us__vacancies p {
-  margin: 0;
-  font-size: 44px;
-  line-height: 53px; }
-
-@media screen and (max-width: 768px) {
-  .about-us__vacancies p {
-    font-size: 24px;
-    line-height: 29px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__vacancies p {
-    font-size: 18px;
-    line-height: 22px; } }
-
-.about-us__vacancies-table tr td {
-  font-size: 28px;
-  line-height: 34px;
-  text-transform: uppercase; }
-
-@media screen and (max-width: 768px) {
-  .about-us__vacancies-table tr td {
-    font-size: 28px;
-    line-height: 34px; } }
-
-@media screen and (max-width: 540px) {
-  .about-us__vacancies-table tr td {
-    font-size: 18px;
-    line-height: 22px; } }
-
-.about-us__vacancies-table tr td table td {
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: none; }
+.features__btn img {
+  line-height: 0;
+  border-radius: 100%; }
 
 .features__wrap {
   display: -webkit-box;
@@ -3930,10 +3775,190 @@ button,
     font-size: 16px;
     line-height: 16px; } }
 
+.video h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px; }
+
+@media screen and (max-width: 768px) {
+  .video h2 {
+    font-size: 59px;
+    line-height: 62px; } }
+
+@media screen and (max-width: 540px) {
+  .video h2 {
+    font-size: 27px;
+    line-height: 28px; } }
+
+.video__tagline p {
+  margin: 0;
+  font-size: 44px;
+  line-height: 53px; }
+
+@media screen and (max-width: 768px) {
+  .video__tagline p {
+    font-size: 24px;
+    line-height: 29px; } }
+
+@media screen and (max-width: 540px) {
+  .video__tagline p {
+    font-size: 18px;
+    line-height: 22px; } }
+
+.principles h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px;
+  text-align: right; }
+
+@media screen and (max-width: 768px) {
+  .principles h2 {
+    font-size: 59px;
+    line-height: 62px; } }
+
+@media screen and (max-width: 540px) {
+  .principles h2 {
+    font-size: 27px;
+    line-height: 28px; } }
+
+.principles__list dt {
+  font-size: 44px;
+  line-height: 44px; }
+
+@media screen and (max-width: 768px) {
+  .principles__list dt {
+    font-size: 24px;
+    line-height: 24px; } }
+
+@media screen and (max-width: 540px) {
+  .principles__list dt {
+    font-size: 20px;
+    line-height: 20px; } }
+
+.principles__list dd {
+  margin: 0;
+  font-size: 28px;
+  line-height: 36px; }
+
+@media screen and (max-width: 768px) {
+  .principles__list dd {
+    font-size: 18px;
+    line-height: 23px; } }
+
+@media screen and (max-width: 540px) {
+  .principles__list dd {
+    font-size: 16px;
+    line-height: 21px; } }
+
+.team h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px; }
+
+@media screen and (max-width: 768px) {
+  .team h2 {
+    font-size: 59px;
+    line-height: 62px; } }
+
+@media screen and (max-width: 540px) {
+  .team h2 {
+    font-size: 27px;
+    line-height: 28px; } }
+
+.team__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.team__list li p {
+  margin: 0;
+  font-size: 28px;
+  line-height: 36px; }
+
+@media screen and (max-width: 768px) {
+  .team__list li p {
+    font-size: 18px;
+    line-height: 23px; } }
+
+@media screen and (max-width: 540px) {
+  .team__list li p {
+    font-size: 16px;
+    line-height: 21px; } }
+
+.team__list li span {
+  font-size: 28px;
+  line-height: 36px;
+  opacity: 0.5; }
+
+@media screen and (max-width: 768px) {
+  .team__list li span {
+    font-size: 19px;
+    line-height: 25px; } }
+
+@media screen and (max-width: 540px) {
+  .team__list li span {
+    font-size: 16px;
+    line-height: 21px; } }
+
+.vacancies h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px; }
+
+@media screen and (max-width: 768px) {
+  .vacancies h2 {
+    font-size: 59px;
+    line-height: 62px; } }
+
+@media screen and (max-width: 540px) {
+  .vacancies h2 {
+    font-size: 27px;
+    line-height: 28px; } }
+
+.vacancies p {
+  margin: 0;
+  font-size: 44px;
+  line-height: 53px; }
+
+@media screen and (max-width: 768px) {
+  .vacancies p {
+    font-size: 24px;
+    line-height: 29px; } }
+
+@media screen and (max-width: 540px) {
+  .vacancies p {
+    font-size: 18px;
+    line-height: 22px; } }
+
+.vacancies__table tr td {
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 768px) {
+  .vacancies__table tr td {
+    font-size: 28px;
+    line-height: 34px; } }
+
+@media screen and (max-width: 540px) {
+  .vacancies__table tr td {
+    font-size: 18px;
+    line-height: 22px; } }
+
+.vacancies__table tr td table td {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: none; }
+
 .footer {
   padding-top: 40px;
   padding-bottom: 36px;
-  background-color: #DE054C; }
+  background-color: #DE054C;
+  scroll-behavior: smooth; }
 
 @media screen and (max-width: 768px) {
   .footer {

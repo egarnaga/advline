@@ -7,6 +7,7 @@
 // ! Не используйте scroll-behavior: smooth вместе с текущим utils/scroll-lock.js
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -30,6 +31,8 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
 
 a {
