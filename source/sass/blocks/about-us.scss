@@ -3,7 +3,22 @@
   padding-bottom: 160px;
 }
 
+@media  screen and (max-width: 768px) {
+  .about-us {
+    padding-top: 70px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .about-us {
+    padding-top: 30px;
+  }
+}
+
+
 .about-us h1 {
+  margin: 0;
+
   font-weight: 400;
   font-size: 100px;
   line-height: 105px;
@@ -18,112 +33,6 @@
 }
 
 
-
-
-// features
-
-
-.about-us__features-text h2 {
-  margin: 0;
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.about-us__features-text p {
-  margin: 0;
-
-  font-size: 44px;
-  line-height: 53px;
-}
-
-@media  screen and (max-width: 768px) {
-  .about-us__features-text p {
-    font-size: 27px;
-    line-height: 32px;
-  }
-}
-
-@media  screen and (max-width: 540px) {
-  .about-us__features-text p {
-    font-size: 21px;
-    line-height: 25px;
-  }
-}
-
-
-
-
-.about-us__features-description p {
-  margin: 0;
-
-  font-size: 100px;
-  line-height: 105px;
-}
-
-@media  screen and (max-width: 768px) {
-  .about-us__features-description p {
-    font-size: 59px;
-    line-height: 62px;
-  }
-}
-
-@media  screen and (max-width: 540px) {
-  .about-us__features-description p {
-    font-size: 27px;
-    line-height: 28px;
-  }
-}
-
-.about-us__features-list {
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-}
-
-.about-us__features-list li span {
-  font-size: 100px;
-  line-height: 105px;
-}
-
-@media  screen and (max-width: 768px) {
-  .about-us__features-list li span {
-    font-size: 59px;
-    line-height: 62px;
-  }
-}
-
-@media  screen and (max-width: 540px) {
-  .about-us__features-list li span {
-    font-size: 27px;
-    line-height: 28px;
-  }
-}
-
-
-
-.about-us__features-list li p {
-  margin: 0;
-
-  font-size: 44px;
-  line-height: 44px;
-}
-
-@media  screen and (max-width: 768px) {
-  .about-us__features-list li p {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-
-@media  screen and (max-width: 540px) {
-  .about-us__features-list li p {
-    font-size: 16px;
-    line-height: 16px;
-  }
-}
 
 
 
