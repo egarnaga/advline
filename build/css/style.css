@@ -3891,31 +3891,105 @@ button,
     font-size: 18px;
     line-height: 22px; } }
 
+.principles {
+  padding-bottom: 107px; }
+
+@media screen and (max-width: 768px) {
+  .principles {
+    padding-bottom: 98px; } }
+
+@media screen and (max-width: 540px) {
+  .principles {
+    padding-bottom: 48px; } }
+
 .principles h2 {
+  max-width: 575px;
   margin: 0;
+  margin-left: auto;
+  margin-bottom: 80px;
   font-weight: 400;
   font-size: 100px;
   line-height: 105px;
   text-align: right; }
 
+@media screen and (max-width: 1156px) {
+  .principles h2 {
+    max-width: 450px;
+    font-size: 80px;
+    line-height: 85px; } }
+
+@media screen and (max-width: 936px) {
+  .principles h2 {
+    max-width: 400px;
+    font-size: 70px;
+    line-height: 75px; } }
+
+@media screen and (max-width: 822px) {
+  .principles h2 {
+    max-width: 350px;
+    font-size: 65px;
+    line-height: 70px; } }
+
 @media screen and (max-width: 768px) {
   .principles h2 {
+    max-width: 316px;
+    margin-bottom: 56px;
     font-size: 59px;
     line-height: 62px; } }
 
 @media screen and (max-width: 540px) {
   .principles h2 {
+    max-width: 170px;
+    margin-bottom: 40px;
     font-size: 27px;
     line-height: 28px; } }
 
+.principles__list div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 80px; }
+
+@media screen and (max-width: 768px) {
+  .principles__list div {
+    padding-top: 20px;
+    padding-bottom: 40px; } }
+
+@media screen and (max-width: 670px) {
+  .principles__list div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+.principles__list div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(1, 3, 2, 0.3); }
+
 .principles__list dt {
+  width: 50%;
   font-size: 44px;
   line-height: 44px; }
 
 @media screen and (max-width: 768px) {
   .principles__list dt {
+    width: 34%;
     font-size: 24px;
     line-height: 24px; } }
+
+@media screen and (max-width: 670px) {
+  .principles__list dt {
+    width: 100%;
+    padding-bottom: 20px; } }
 
 @media screen and (max-width: 540px) {
   .principles__list dt {
@@ -3923,17 +3997,30 @@ button,
     line-height: 20px; } }
 
 .principles__list dd {
+  width: 50%;
+  margin: 0; }
+
+@media screen and (max-width: 768px) {
+  .principles__list dd {
+    width: 66%; } }
+
+@media screen and (max-width: 670px) {
+  .principles__list dd {
+    width: 100%; } }
+
+.principles__list dd p {
   margin: 0;
   font-size: 28px;
   line-height: 36px; }
 
 @media screen and (max-width: 768px) {
-  .principles__list dd {
+  .principles__list dd p {
+    max-width: 482px;
     font-size: 18px;
     line-height: 23px; } }
 
 @media screen and (max-width: 540px) {
-  .principles__list dd {
+  .principles__list dd p {
     font-size: 16px;
     line-height: 21px; } }
 
