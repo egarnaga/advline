@@ -1,0 +1,43 @@
+
+.work h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 768px) {
+  .work h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.work p {
+  margin: 0;
+
+  font-size: 44px;
+  line-height: 44px;
+}
+
+@media  screen and (max-width: 768px) {
+  .work p {
+    font-size: 26px;
+    line-height: 29px;
+  }
+}
+
+.work__text p {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media  screen and (max-width: 768px) {
+  .work__text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

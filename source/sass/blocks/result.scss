@@ -1,0 +1,53 @@
+
+.result h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-text-alternate;
+}
+
+@media  screen and (max-width: 768px) {
+  .result h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.result__wrapper p {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media  screen and (max-width: 768px) {
+  .result__wrapper p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.result__wrapper dl {
+  margin: 0;
+}
+
+.result__wrapper dt,
+.result__wrapper dd {
+  font-size: 44px;
+  line-height: 44px;
+  color: $color-text-alternate;
+}
+
+@media  screen and (max-width: 768px) {
+  .result__wrapper dt,
+  .result__wrapper dd {
+    font-size: 22px;
+    line-height: 29px;
+  }
+}
+
+.result__wrapper dd {
+  margin: 0;
+}

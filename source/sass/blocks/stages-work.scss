@@ -1,0 +1,56 @@
+.stages-work {
+  background-color: $color-background;
+}
+
+
+.stages-work h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $color-default-white;
+}
+
+@media  screen and (max-width: 768px) {
+  .stages-work h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.stages-work__wrapper h3 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 44px;
+  color: $color-default-white;
+}
+
+@media  screen and (max-width: 768px) {
+  .stages-work__wrapper h3 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+.stages-work__wrapper ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.stages-work__wrapper ul li {
+  font-size: 28px;
+  line-height: 36px;
+  color: $color-default-white;
+}
+
+@media  screen and (max-width: 768px) {
+  .stages-work__wrapper ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
