@@ -4462,11 +4462,17 @@ button,
 @media screen and (max-width: 768px) {
   .contacts__word {
     font-size: 89px;
+    font-size: 88px;
     line-height: 71px; } }
+
+@media screen and (max-width: 760px) {
+  .contacts__word {
+    font-size: 80px;
+    line-height: 62px; } }
 
 @media screen and (max-width: 750px) {
   .contacts__word {
-    font-size: 80px;
+    font-size: 75px;
     line-height: 62px; } }
 
 @media screen and (max-width: 540px) {
@@ -4484,6 +4490,10 @@ button,
 @media screen and (max-width: 864px) {
   .contacts__word:nth-child(1) {
     margin-right: 25px; } }
+
+@media screen and (max-width: 768px) {
+  .contacts__word:nth-child(1) {
+    margin-right: 15px; } }
 
 .contacts__word:nth-child(3) {
   margin-top: 30px;
