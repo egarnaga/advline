@@ -8,6 +8,7 @@
 
 .footer--light {
   padding-top: 20px;
+  color: $color-default-white;
 }
 
 @media  screen and (max-width: 768px) {
@@ -375,12 +376,14 @@
 
   font-size: 14px;
   line-height: 17px;
+  color: $color-default-white;
+}
+
+.footer--light .footer__copyright {
   color: $color-text-primary;
 }
 
-.footer--light {
-  color: $color-default-white;
-}
+
 
 @media  screen and (max-width: 768px) {
   .footer__copyright {

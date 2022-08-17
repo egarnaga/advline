@@ -4809,7 +4809,8 @@ button,
   scroll-behavior: smooth; }
 
 .footer--light {
-  padding-top: 20px; }
+  padding-top: 20px;
+  color: #ffffff; }
 
 @media screen and (max-width: 768px) {
   .footer {
@@ -5111,10 +5112,10 @@ button,
   padding-top: 4px;
   font-size: 14px;
   line-height: 17px;
-  color: #010302; }
-
-.footer--light {
   color: #ffffff; }
+
+.footer--light .footer__copyright {
+  color: #010302; }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
