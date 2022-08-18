@@ -32,18 +32,14 @@
   margin-bottom: 83px;
 }
 
-
 @media  screen and (max-width: 375px) {
   .stages-work__container {
     padding: 0 10px;
   }
 }
 
-
 .stages-work__wrapper {
   display: flex;
-
-  flex-direction: column;
 }
 
 @media  screen and (max-width: 625px) {
@@ -51,9 +47,6 @@
     flex-direction: column;
   }
 }
-
-
-
 
 .stages-work__wrapper h2 {
   min-width: 106px;
@@ -81,7 +74,7 @@
   }
 }
 
-@media  screen and (max-width: 768px) {
+@media  screen and (max-width: 728px) {
   .stages-work h2 {
     margin-right: 100px;
 
@@ -147,7 +140,6 @@
   list-style: none;
 }
 
-
 .stages-work__wrapper ul li {
   position: relative;
   padding-top: 20px;
@@ -198,5 +190,3 @@
     width: 100%;
   }
 }
-
-
