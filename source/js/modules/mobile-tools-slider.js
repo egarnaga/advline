@@ -1,17 +1,17 @@
-const mobileBlogSlider = () => {
+const mobileToolsSlider = () => {
 
-  let slider = document.querySelector('.blog__slider-container');
+  let slider = document.querySelector('.tools__slider-container');
 
-  let sliderBlog;
+  let sliderTools;
 
   if (slider) {
-    if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
-      sliderBlog = new Swiper('.blog__slider-container', {
+    if (window.innerWidth <= 625 && slider.dataset.mobile == 'false') {
+      sliderTools = new Swiper('.tools__slider-container', {
         slidesPerView: 'auto',
-        spaceBetween: 10,
-        slideClass: 'blog__article-card',
+        //spaceBetween: 10,
+        slideClass: 'tools__slider-card',
         pagination: {
-         	el: '.blog__pagination',
+         	el: '.tools__pagination',
           clickable: true,
           renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -29,12 +29,12 @@ const mobileBlogSlider = () => {
     window.addEventListener('resize', () => {
 
       if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
-        sliderBlog = new Swiper('.blog__slider-container', {
+        sliderTools = new Swiper('.tools__slider-container', {
           slidesPerView: 'auto',
-          spaceBetween: 10,
-          slideClass: 'blog__article-card',
+          //spaceBetween: 10,
+          slideClass: 'tools__slider-card',
            pagination: {
-           	el: '.blog__pagination',
+           	el: '.tools__pagination',
            	clickable: true,
              renderBullet: function (index, className) {
               return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -45,11 +45,11 @@ const mobileBlogSlider = () => {
         slider.dataset.mobile = 'true';
       }
 
-      if (window.innerWidth > 600) {
+      if (window.innerWidth > 625) {
         slider.dataset.mobile = 'false';
 
         if (slider.classList.contains('swiper-container-initialized')) {
-          sliderBlog.destroy();
+          sliderTools.destroy();
         }
       }
 
@@ -58,4 +58,4 @@ const mobileBlogSlider = () => {
 
 };
 
-export {mobileBlogSlider};
+export {mobileToolsSlider};

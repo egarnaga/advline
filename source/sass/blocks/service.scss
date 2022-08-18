@@ -1,0 +1,153 @@
+.service {
+  position: relative;
+
+  padding-top: 88px;
+  padding-bottom: 196px;
+}
+
+@media  screen and (max-width: 768px) {
+  .service {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .service {
+    padding-bottom: 98px;
+  }
+}
+
+
+.service h1 {
+  max-width: 808px;
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 160px;
+  line-height: 128px;
+}
+
+@media  screen and (max-width: 1070px) {
+  .service h1 {
+    max-width: 700px;
+
+    font-size: 140px;
+    line-height: 115px;
+  }
+}
+
+@media  screen and (max-width: 890px) {
+  .service h1 {
+    max-width: 590px;
+
+    font-size: 120px;
+    line-height: 115px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .service h1 {
+    max-width: 281px;
+
+    font-size: 56px;
+    line-height: 59px;
+  }
+}
+
+.service h2 {
+  margin: 0;
+  margin-top: 162px;
+  margin-left: 29px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 768px) {
+  .service h2 {
+    margin-top: 76px;
+    margin-left: 20px;
+
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .service h2 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+
+.service__text {
+  display: flex;
+}
+
+@media  screen and (max-width: 540px) {
+  .service__text {
+    flex-direction: column;
+  }
+}
+
+.service__btn {
+  margin-top: 102px;
+}
+
+@media  screen and (max-width: 768px) {
+  .service__btn {
+    margin-top: 79px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .service__btn {
+    margin-top: 40px;
+  }
+}
+
+
+.service__btn .btn--light {
+  max-width: 486px;
+
+  border: 1px solid #010302;
+}
+
+@media  screen and (max-width: 768px) {
+  .service__btn .btn--light {
+    max-width: 357px;
+  }
+}
+
+
+.service__btn-scroll {
+  position: absolute;
+
+  bottom: 27.2%;
+  right: 1.4%;
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 100%;
+}
+
+@media  screen and (max-width: 768px) {
+  .service__btn-scroll {
+
+    bottom: 26.9%;
+    right: 2.6%;
+
+    width: 47px;
+    height: 47px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .service__btn-scroll {
+    display: none;
+  }
+}
