@@ -1,16 +1,17 @@
-const mobileToolsSlider = () => {
+const mobileServicePageSlider = () => {
 
-  let slider = document.querySelector('.tools__slider-container');
+  let slider = document.querySelector('.service-page__slider-container');
 
   let sliderTools;
 
   if (slider) {
     if (window.innerWidth <= 625 && slider.dataset.mobile == 'false') {
-      sliderTools = new Swiper('.tools__slider-container', {
+      sliderServicePage = new Swiper('.service-page__slider-container', {
         slidesPerView: 'auto',
-        slideClass: 'tools__slider-card',
+        spaceBetween: 10,
+        slideClass: 'service-page__slider-card',
         pagination: {
-         	el: '.tools__pagination',
+         	el: '.service-page__pagination',
           clickable: true,
           renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -28,11 +29,12 @@ const mobileToolsSlider = () => {
     window.addEventListener('resize', () => {
 
       if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
-        sliderTools = new Swiper('.tools__slider-container', {
+        sliderServicePage = new Swiper('.service-page__slider-container', {
           slidesPerView: 'auto',
-          slideClass: 'tools__slider-card',
+          spaceBetween: 10,
+          slideClass: 'service-page__slider-card',
            pagination: {
-           	el: '.tools__pagination',
+           	el: '.service-page__pagination',
            	clickable: true,
              renderBullet: function (index, className) {
               return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -47,7 +49,7 @@ const mobileToolsSlider = () => {
         slider.dataset.mobile = 'false';
 
         if (slider.classList.contains('swiper-container-initialized')) {
-          sliderTools.destroy();
+          sliderServicePage.destroy();
         }
       }
 
@@ -56,4 +58,4 @@ const mobileToolsSlider = () => {
 
 };
 
-export {mobileToolsSlider};
+export {mobileServicePageSlider};
