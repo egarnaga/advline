@@ -1,0 +1,42 @@
+.process {
+  color: $color-default-white;
+
+  background-color: $color-background;
+}
+.process h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 768px) {
+  .process h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.process__slider-wrapper {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.process__text p,
+.process__text span {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media  screen and (max-width: 768px) {
+  .process__text p,
+  .process__text span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

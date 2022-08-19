@@ -1,0 +1,32 @@
+
+
+.design h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 768px) {
+  .design h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.design figure {
+  margin: 0;
+}
+
+.design figcaption {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media  screen and (max-width: 768px) {
+  .design figcaption {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

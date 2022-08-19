@@ -1,0 +1,35 @@
+
+
+.result-work__wrapper h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 768px) {
+  .result-work__wrapper h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.result-work__wrapper ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.result-work__wrapper ul li {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@media  screen and (max-width: 768px) {
+  .result-work__wrapper ul li {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

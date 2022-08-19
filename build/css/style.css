@@ -5778,6 +5778,210 @@ button,
     font-size: 22px;
     line-height: 27px; } }
 
+.case__link a {
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase; }
+
+.case__heading h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 105px; }
+
+@media screen and (max-width: 768px) {
+  .case__heading h1 {
+    font-size: 56px;
+    line-height: 59px; } }
+
+.case__description p {
+  margin: 0;
+  font-size: 28px;
+  line-height: 36px; }
+
+@media screen and (max-width: 768px) {
+  .case__description p {
+    font-size: 22px;
+    line-height: 29px; } }
+
+.case__wrap h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.4; }
+
+@media screen and (max-width: 768px) {
+  .case__list-wrap h2 {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.case__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.case__list li {
+  background-color: #010302; }
+
+.case__list a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 768px) {
+  .case__list a {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.case__info span {
+  font-size: 18px;
+  line-height: 23px; }
+
+@media screen and (max-width: 768px) {
+  .case__info span {
+    font-size: 14px;
+    line-height: 18px; } }
+
+.case__info a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #010302;
+  text-transform: uppercase;
+  border-bottom: 1px solid #010302; }
+
+@media screen and (max-width: 768px) {
+  .case__info a {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.case__paragraph p {
+  margin: 0;
+  font-size: 44px;
+  line-height: 44px; }
+
+@media screen and (max-width: 768px) {
+  .case__paragraph p {
+    font-size: 35px;
+    line-height: 35px; } }
+
+@media screen and (max-width: 540px) {
+  .case__paragraph p {
+    font-size: 22px;
+    line-height: 29px; } }
+
+.result-work__wrapper h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px; }
+
+@media screen and (max-width: 768px) {
+  .result-work__wrapper h2 {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.result-work__wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.result-work__wrapper ul li {
+  font-size: 28px;
+  line-height: 36px; }
+
+@media screen and (max-width: 768px) {
+  .result-work__wrapper ul li {
+    font-size: 14px;
+    line-height: 18px; } }
+
+.results h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px; }
+
+@media screen and (max-width: 768px) {
+  .results h2 {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.results__text p {
+  margin: 0;
+  font-size: 44px;
+  line-height: 44px; }
+
+@media screen and (max-width: 768px) {
+  .results__text p {
+    font-size: 35px;
+    line-height: 35px; } }
+
+.process {
+  color: #ffffff;
+  background-color: #010302; }
+
+.process h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px; }
+
+@media screen and (max-width: 768px) {
+  .process h2 {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.process__slider-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.process__text p,
+.process__text span {
+  margin: 0;
+  font-size: 18px;
+  line-height: 23px; }
+
+@media screen and (max-width: 768px) {
+  .process__text p,
+  .process__text span {
+    font-size: 14px;
+    line-height: 18px; } }
+
+.design h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px; }
+
+@media screen and (max-width: 768px) {
+  .design h2 {
+    font-size: 12px;
+    line-height: 15px; } }
+
+.design figure {
+  margin: 0; }
+
+.design figcaption {
+  font-size: 18px;
+  line-height: 23px; }
+
+@media screen and (max-width: 768px) {
+  .design figcaption {
+    font-size: 14px;
+    line-height: 18px; } }
+
+.link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 380px;
+  font-size: 44px;
+  line-height: 44px;
+  color: #010302;
+  border-bottom: 1px solid #010302; }
+
 .footer {
   padding-top: 40px;
   padding-bottom: 36px;

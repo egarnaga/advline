@@ -1,0 +1,12 @@
+
+
+.link a {
+  display: flex;
+  max-width: 380px;
+
+  font-size: 44px;
+  line-height: 44px;
+  color: $color-text-primary;
+
+  border-bottom: 1px solid $color-background;
+}
