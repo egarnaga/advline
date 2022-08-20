@@ -28,7 +28,7 @@ const mobileServicePageSlider = () => {
   if (slider) {
     window.addEventListener('resize', () => {
 
-      if (window.innerWidth <= 600 && slider.dataset.mobile == 'false') {
+      if (window.innerWidth <= 625 && slider.dataset.mobile == 'false') {
         sliderServicePage = new Swiper('.service-page__slider-container', {
           slidesPerView: 'auto',
           spaceBetween: 10,

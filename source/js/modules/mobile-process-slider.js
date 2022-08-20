@@ -1,16 +1,17 @@
-const mobileToolsSlider = () => {
+const mobileProcessSlider = () => {
 
-  let slider = document.querySelector('.tools__slider-container');
+  let slider = document.querySelector('.process__slider-container');
 
-  let sliderTools;
+  let sliderProcess;
 
   if (slider) {
     if (window.innerWidth <= 625 && slider.dataset.mobile == 'false') {
-      sliderTools = new Swiper('.tools__slider-container', {
+      sliderProcess = new Swiper('.process__slider-container', {
         slidesPerView: 'auto',
-        slideClass: 'tools__slider-card',
+        spaceBetween: 10,
+        slideClass: 'process__slider-card',
         pagination: {
-         	el: '.tools__pagination',
+         	el: '.process__pagination',
           clickable: true,
           renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -27,12 +28,13 @@ const mobileToolsSlider = () => {
   if (slider) {
     window.addEventListener('resize', () => {
 
-      if (window.innerWidth <= 625 && slider.dataset.mobile == 'false') {
-        sliderTools = new Swiper('.tools__slider-container', {
+      if (window.innerWidth <= 540 && slider.dataset.mobile == 'false') {
+        sliderProcess = new Swiper('.process__slider-container', {
           slidesPerView: 'auto',
-          slideClass: 'tools__slider-card',
+          spaceBetween: 10,
+          slideClass: 'process__slider-card',
            pagination: {
-           	el: '.tools__pagination',
+           	el: '.process__pagination',
            	clickable: true,
              renderBullet: function (index, className) {
               return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -43,11 +45,11 @@ const mobileToolsSlider = () => {
         slider.dataset.mobile = 'true';
       }
 
-      if (window.innerWidth > 625) {
+      if (window.innerWidth > 540) {
         slider.dataset.mobile = 'false';
 
         if (slider.classList.contains('swiper-container-initialized')) {
-          sliderTools.destroy();
+          sliderProcess.destroy();
         }
       }
 
@@ -56,4 +58,4 @@ const mobileToolsSlider = () => {
 
 };
 
-export {mobileToolsSlider};
+export {mobileProcessSlider};
