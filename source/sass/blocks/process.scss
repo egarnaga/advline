@@ -218,7 +218,7 @@
   display: none;
 }
 
-@media  screen and (max-width: 625px) {
+@media  screen and (max-width: 540px) {
   .process__pagination {
     display: flex;
     justify-content: center;
@@ -227,7 +227,7 @@
 }
 
 
-@media  screen and (max-width: 625px) {
+@media  screen and (max-width: 540px) {
   .process .swiper-pagination-bullet {
     margin-left: 5px;
     margin-right: 5px;
@@ -241,7 +241,7 @@
   }
 }
 
-@media  screen and (max-width: 625px) {
+@media  screen and (max-width: 540px) {
   .process .swiper-pagination-bullet-active {
     opacity: 1;
   }

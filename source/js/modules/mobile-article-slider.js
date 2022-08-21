@@ -1,17 +1,17 @@
-const mobileProcessSlider = () => {
+const mobileArticleSlider = () => {
 
-  let slider = document.querySelector('.process__slider-container');
+  let slider = document.querySelector('.article__slider-container');
 
-  let sliderProcess;
+  let sliderArticle;
 
   if (slider) {
     if (window.innerWidth <= 540 && slider.dataset.mobile == 'false') {
-      sliderProcess = new Swiper('.process__slider-container', {
+      sliderArticle = new Swiper('.article__slider-container', {
         slidesPerView: 'auto',
         spaceBetween: 10,
-        slideClass: 'process__slider-card',
+        slideClass: 'article__slider-card',
         pagination: {
-         	el: '.process__pagination',
+         	el: '.article__slider-pagination',
           clickable: true,
           renderBullet: function (index, className) {
             return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -29,12 +29,12 @@ const mobileProcessSlider = () => {
     window.addEventListener('resize', () => {
 
       if (window.innerWidth <= 540 && slider.dataset.mobile == 'false') {
-        sliderProcess = new Swiper('.process__slider-container', {
+        sliderArticle = new Swiper('.article__slider-container', {
           slidesPerView: 'auto',
           spaceBetween: 10,
-          slideClass: 'process__slider-card',
+          slideClass: 'article__slider-card',
            pagination: {
-           	el: '.process__pagination',
+           	el: '.article__slider-pagination',
            	clickable: true,
              renderBullet: function (index, className) {
               return '<span class="' + className + '">' + (index + 1) + '</span>';
@@ -49,7 +49,7 @@ const mobileProcessSlider = () => {
         slider.dataset.mobile = 'false';
 
         if (slider.classList.contains('swiper-container-initialized')) {
-          sliderProcess.destroy();
+          sliderArticle.destroy();
         }
       }
 
@@ -58,4 +58,4 @@ const mobileProcessSlider = () => {
 
 };
 
-export {mobileProcessSlider};
+export {mobileArticleSlider};

@@ -7,6 +7,7 @@ import {mobileBlogSlider} from './modules/mobile-blog-slider';
 import {mobileToolsSlider} from './modules/mobile-tools-slider';
 import {mobileServicePageSlider} from './modules/mobile-service-page-slider';
 import {mobileProcessSlider} from './modules/mobile-process-slider';
+import {mobileArticleSlider} from './modules/mobile-article-slider';
 
 // Utils
 // ---------------------------------
@@ -23,3 +24,4 @@ mobileBlogSlider();
 mobileToolsSlider();
 mobileServicePageSlider();
 mobileProcessSlider();
+mobileArticleSlider();
