@@ -38,6 +38,8 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.85796 7.46667L8.46393 0.816L7.89874 0L9.53674e-07 8.0224L7.89874 16L8.46481 15.1851L1.85708 8.53333H16V7.46667L1.85796 7.46667Z" fill="black"/>
 </symbol><symbol id="icon-close" viewBox="0 0 17 17">
 <path d="M1 1L8.5 8.5M16 16L8.5 8.5M8.5 8.5L1.00014 16M8.5 8.5L15.9999 1" stroke="#010302"/>
+</symbol><symbol id="icon-modal-close" viewBox="0 0 15 15">
+<path d="M1 1L7.5 7.5M14 14L7.5 7.5M7.5 7.5L1.00012 14M7.5 7.5L13.9999 1" stroke="#F9F9F9"/>
 </symbol><symbol id="icon-open-dark" viewBox="0 0 15 15">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M15 14H0V13H15V14ZM15 8H0V7H15V8ZM15 2H0V1H15V2Z" fill="white"/>
 </symbol><symbol id="icon-open" viewBox="0 0 15 15">
@@ -910,18 +912,102 @@
 </footer>
 
 
-    <div class="modal modal--preload modal--brief    ">
+    <div class="modal modal--preload modal--brief   modal--fit-content   ">
   <div class="modal__wrapper">
     <div class="modal__overlay"></div>
     <div class="modal__content">
 
-      <p class="modal__description">Заявка</p>
+      
+
+<div class="modal__logo">
+  <img src="img/svg/logo-brief.svg" width="122" height="19" alt="Логотип">
+</div>
+
+<div class="container">
+  <div class="modal__heading">
+    <h2>Заявка</h2>
+  </div>
+
+  <form class="modal__form" action="post">
+
+    <div class="modal__check">
+      <label class="modal__checkbox">
+
+        <span class="modal__checkbox-short modal__checkbox-short--active">Короткая</span>
+
+        <input class="modal__checkbox-input" type="checkbox">
+
+        <span class="modal__checkbox-switch"></span>
+
+        <span class="modal__checkbox-full">Подробная</span>
+
+      </label>
+    </div>
+
+    <div class="modal__inputs">
+      <label for="name">Меня зовут</label>
+      <input id="name" type="text" name="name" placeholder="введите имя" autofocus required>
+      <label for="services"> , и мне требуется </label>
+      <select id="services" required>
+        <option>выберите услуги</option>
+        <option>Стратегический маркетинг</option>
+        <option>Брендинг</option>
+        <option>Креатив и дизайн</option>
+        <option>Web-разработка</option>
+        <option>Digital-услуги</option>
+        <option>PR</option>
+        <option>Репутация</option>
+        <option>Производство рекламы</option>
+        <option>Event</option>
+      </select>
+    </div>
+
+    <div class="modal__inputs">
+
+
+      <label for="email">Вы можете связаться со мной по электронной почте</label>
+      <input id="e-mail" type="email" value="" placeholder="введите email" required>
+
+      <div class="modal__inputs--hidden">
+        <label for="phone">или по телефону</label>
+        <input id="phone" type="tel" placeholder="введите телефон" required>
+      </div>
+    </div>
+
+    <div class="modal__inputs modal__inputs--hidden">
+      <label for="name-company">Наша компания называется </label>
+      <input type="text" id="name-company" placeholder="введите название компании" required>
+      <label for="website"> , подробнее можете посмотреть на нашем сайте </label>
+      <input type="url" id="website" placeholder="введите адрес сайта" required>
+    </div>
+
+    <div class="modal__textarea">
+      <label for="comment" required>Вот информация о нашем проекте:</label>
+      <div>
+        <textarea id="comment" placeholder="расскажите о вашем проекте" required></textarea>
+      </div>
+    </div>
+
+    <div class="modal__button">
+      <button type="submit">
+        <span>Отправить</span>
+      </button>
+
+      <p>Нажимая на кнопку «Отправить», вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности.</p>
+    </div>
+
+
+  </form>
+</div>
+
+
 
 
       <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап">
         <svg width="15" height="15">
-          <use xlink:href="#icon-close"></use>
+          <use xlink:href="#icon-modal-close"></use>
         </svg>
+        <span>Закрыть</span>
       </button>
 
     </div>
