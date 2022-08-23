@@ -615,7 +615,7 @@
     <h2>Заявка</h2>
   </div>
 
-  <form class="modal__form" action="post">
+  <form class="modal__form" action="post" novalidate>
 
     <div class="modal__check">
       <label class="modal__checkbox">
@@ -632,51 +632,86 @@
     </div>
 
     <div class="modal__inputs">
-      <label for="name">Меня зовут</label>
-      <input id="name" type="text" name="name" placeholder="введите имя" autofocus required>
-      <label for="services"> , и мне требуется </label>
-      <select id="services" required>
-        <option>выберите услуги</option>
-        <option>Стратегический маркетинг</option>
-        <option>Брендинг</option>
-        <option>Креатив и дизайн</option>
-        <option>Web-разработка</option>
-        <option>Digital-услуги</option>
-        <option>PR</option>
-        <option>Репутация</option>
-        <option>Производство рекламы</option>
-        <option>Event</option>
-      </select>
+      <div class="modal__inputs--show">
+        <label for="name">Меня зовут</label>
+        <span class="modal__inputs-wrap">
+          <input id="name" type="text" name="name" placeholder="введите имя" autofocus>
+          <span class="modal__error">Это поле обязательное</span>
+        </span>
+      </div>
+
+      <div class="modal__services">
+        <label for="services"> , и мне требуется </label>
+        <select id="services">
+          <option>выберите услуги</option>
+          <option>Стратегический маркетинг</option>
+          <option>Брендинг</option>
+          <option>Креатив и дизайн</option>
+          <option>Web-разработка</option>
+          <option>Digital-услуги</option>
+          <option>PR</option>
+          <option>Репутация</option>
+          <option>Производство рекламы</option>
+          <option>Event</option>
+        </select>
+      </div>
+
     </div>
 
     <div class="modal__inputs">
 
 
-      <label for="email">Вы можете связаться со мной по электронной почте</label>
-      <input id="e-mail" type="email" value="" placeholder="введите email" required>
+      <div class="modal__inputs--show">
+        <label for="email">Вы можете связаться со мной по электронной почте</label>
+        <span class="modal__inputs-wrap">
+          <input id="email" type="email" value="" placeholder="введите email">
+          <span class="modal__error">Это поле обязательное</span>
+        </span>
+      </div>
+
 
       <div class="modal__inputs--hidden">
         <label for="phone">или по телефону</label>
-        <input id="phone" type="tel" placeholder="введите телефон" required>
+        <span class="modal__inputs-wrap">
+          <input id="phone" type="tel" placeholder="введите телефон">
+          <span class="modal__error">Это поле обязательное</span>
+        </span>
       </div>
+
     </div>
 
-    <div class="modal__inputs modal__inputs--hidden">
-      <label for="name-company">Наша компания называется </label>
-      <input type="text" id="name-company" placeholder="введите название компании" required>
-      <label for="website"> , подробнее можете посмотреть на нашем сайте </label>
-      <input type="url" id="website" placeholder="введите адрес сайта" required>
+    <div class="modal__inputs">
+      <div class="modal__inputs--hidden">
+        <label for="name-company">Наша компания называется </label>
+
+        <span class="modal__inputs-wrap">
+          <input type="text" id="name-company" placeholder="введите название компании">
+          <span class="modal__error">Это поле обязательное</span>
+        </span>
+      </div>
+
+      <div class="modal__inputs--hidden">
+        <label for="website"> , подробнее можете посмотреть на нашем сайте </label>
+        <span class="modal__inputs-wrap">
+          <input type="url" id="website" placeholder="введите адрес сайта">
+          <span class="modal__error">Это поле обязательное</span>
+        </span>
+      </div>
+
     </div>
 
-    <div class="modal__textarea">
-      <label for="comment" required>Вот информация о нашем проекте:</label>
+    <div class="modal__textarea modal__inputs--show">
+      <label for="comment">Вот информация о нашем проекте:</label>
       <div>
-        <textarea id="comment" placeholder="расскажите о вашем проекте" required></textarea>
+        <span class="modal__inputs-wrap">
+          <textarea id="comment" placeholder="расскажите о вашем проекте"></textarea>
+          <span class="modal__error">Это поле обязательное</span>
+        </span>
       </div>
     </div>
 
     <div class="modal__button">
-      <button type="submit">
+      <button class="modal__btn" type="submit">
         <span>Отправить</span>
       </button>
 

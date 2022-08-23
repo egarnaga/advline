@@ -9,6 +9,7 @@ import {mobileServicePageSlider} from './modules/mobile-service-page-slider';
 import {mobileProcessSlider} from './modules/mobile-process-slider';
 import {mobileArticleSlider} from './modules/mobile-article-slider';
 import {briefToggle} from './modules/brief-toggle';
+import {formValidation} from './modules/form-validation';
 
 // Utils
 // ---------------------------------
@@ -27,3 +28,4 @@ mobileServicePageSlider();
 mobileProcessSlider();
 mobileArticleSlider();
 briefToggle();
+formValidation();

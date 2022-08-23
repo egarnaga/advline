@@ -355,6 +355,10 @@
   margin-bottom: 39px;
 }
 
+/* .modal--brief .modal__inputs div {
+  display: inline;
+} */
+
 
 .modal--brief .modal__inputs label,
 .modal--brief .modal__textarea label {
@@ -387,14 +391,14 @@
   outline: none;
 }
 
+.modal--brief .modal__services {
+  display: inline;
+}
+
 .modal--brief .modal__inputs select {
   color: rgba(255, 255, 255, 0.4)
 }
 
-/* .modal__inputs input:invalid {
-  border: 1px solid #D11414;
-}
- */
 
 .modal--brief .modal__inputs input:focus {
   border: 1px solid #FFFFFF;
@@ -420,6 +424,57 @@
 }
 
 
+
+
+.modal--brief .modal__inputs-wrap {
+  position: relative;
+}
+
+.modal--brief .modal__error {
+  position: absolute;
+
+  display: none;
+
+  top: 35px;
+  left: 0;
+
+  font-size: 12px;
+  line-height: 15px;
+  color: #D11414;
+}
+
+.modal--brief .modal__textarea .modal__error {
+  top: 20px;
+}
+
+
+.modal--brief .modal__error--show {
+  display: block;
+}
+
+.modal--brief .modal__inputs-error input,
+.modal--brief .modal__inputs-error textarea {
+  border: 1px solid #D11414;
+}
+
+
+
+
+
+
+.modal--brief .modal__inputs--hidden {
+  display: none;
+}
+
+.modal--brief .modal__inputs--show {
+  display: inline;
+}
+
+
+
+
+
+
 .modal--brief .modal__button {
   display: flex;
   margin-top: 105px;
@@ -439,13 +494,10 @@
 }
 
 
-.modal__inputs--hidden {
-  display: none;
-}
 
-.modal__inputs--show {
-  display: inline;
-}
+
+
+
 
 
 .modal--brief .modal__button button {
