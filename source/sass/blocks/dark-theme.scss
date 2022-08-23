@@ -64,20 +64,42 @@
 
 
 
-/* .main-nav--dark .main-nav--opened .main-nav__toggle {
+@media screen and (min-width: 769px) {
+  .dark-theme .main-nav__fullscreen-sub-menu {
+    //color: $color-default-white;
 
-  background-image: url(../img/sprite/icon-close.svg);
-  background-repeat: no-repeat;
-
-} */
-
-/* @media  screen and (max-width: 768px) {
-  .main-nav .main-nav--opened .main-nav__toggle {
-    font-size: 14px;
-    line-height: 17px;
+    background-color: $color-background;
   }
-} */
+}
 
 
+@media screen and (min-width: 769px) {
+  .dark-theme .main-nav__list-first ul,
+  .dark-theme .main-nav__list-second ul {
+    //color: $color-default-white;
 
+    background-color: $color-background;
+  }
+}
 
+@media screen and (min-width: 769px) {
+  .dark-theme .main-nav .main-nav__sub-sub-menu {
+    //color: $color-default-white;
+
+    background-color: $color-background;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .dark-theme .main-nav .main-nav__sub-sub-item span,
+  .dark-theme .main-nav .main-nav__sub-sub-item p,
+  .dark-theme .main-nav .main-nav__sub-sub-item div {
+    color: $color-default-white;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .dark-theme .main-nav .main-nav__sub-item a {
+    color: $color-default-white;
+  }
+}
