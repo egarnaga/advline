@@ -741,3 +741,88 @@
     opacity: 1;
   }
 }
+
+
+
+
+// hover (cases card)
+
+
+@media  screen and (max-width: 768px) {
+  .cases__hover-blur {
+    position: absolute;
+    display: flex;
+
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+  }
+}
+
+
+@media  screen and (max-width: 768px) {
+  .cases .cases__slider-card a:hover .cases__img .cases__hover-blur {
+
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .portfolio__card-heading {
+    position: relative;
+  }
+}
+
+
+@media  screen and (max-width: 768px) {
+  .cases dl {
+    display: none;
+    position: absolute;
+    left: 10px;
+    bottom: 160px;
+
+    margin: 0;
+
+    font-size: 17px;
+    line-height: 25px;
+    color: $color-default-white;
+  }
+}
+
+@media  screen and (max-width: 600px) {
+  .cases dl {
+    bottom: 180px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .cases dl div {
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+@media  screen and (max-width: 768px) {
+  .cases dl div dd {
+    margin-left: 15px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .cases a:hover dl {
+    display: block;
+  }
+}

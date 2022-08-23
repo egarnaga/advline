@@ -235,6 +235,7 @@
 }
 
 
+
 @media  screen and (max-width: 845px) {
   .portfolio__img {
 
@@ -826,3 +827,69 @@
 .portfolio__pagination-bullet--active {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+
+// hover (cases card)
+
+
+.portfolio a:hover .portfolio__img .portfolio__shadow {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.portfolio__card-heading {
+  position: relative;
+}
+
+.portfolio dl {
+  display: none;
+  position: absolute;
+  left: 20px;
+  bottom: 150px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  font-size: 22px;
+  line-height: 30px;
+  color: $color-default-white;
+}
+
+@media  screen and (max-width: 845px) {
+  .portfolio dl {
+    bottom: 130px;
+
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+
+@media  screen and (max-width: 845px) {
+  .portfolio dl {
+    left: 10px;
+  }
+}
+
+
+.portfolio dl div {
+  display: flex;
+  margin-top: 10px;
+}
+
+.portfolio dl div dd {
+  margin-left: 15px;
+}
+
+.portfolio a:hover dl {
+  display: block;
+}
+
