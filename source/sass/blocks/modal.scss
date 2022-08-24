@@ -36,11 +36,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    //max-width: 100%;
+    //width: 100vw;
     min-height: 100%;
-    padding: 60px 40px;
+    //padding: 60px 40px;
 
     @include viewport--sm {
-      padding: 60px 16px;
+      //padding: 60px 16px;
     }
   }
 
@@ -58,13 +60,14 @@
   &__content {
     position: relative;
 
-    width: 600px;
+    //width: 600px;
     //padding: 40px;
+    width: 100vw;
 
     background-color: $color-default-white;
 
     @include viewport--sm {
-      width: 100%;
+      //width: 100%;
       //padding: 20px;
     }
   }
@@ -77,17 +80,17 @@
 
   &--responsive {
     .modal__content {
-      width: 100%;
+      //width: 100%;
       //max-width: 100%;
     }
   }
 
   &--fit-content {
     .modal__content {
-      width: auto;
+      //width: auto;
 
       @include viewport--sm {
-        width: 100%;
+        //width: 100%;
       }
     }
   }
@@ -471,7 +474,11 @@
   display: inline;
 }
 
-
+/* @media  screen and (max-width: 890px) {
+  .modal--brief .modal__inputs--show {
+    display: block;
+  }
+} */
 
 
 
@@ -559,3 +566,96 @@
     margin-left: 0;
   }
 }
+
+
+
+
+
+.modal--brief .modal__inputs-name input {
+  width: 146px;
+}
+
+.modal--brief .modal__services select {
+  width: 188px;
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__services {
+    display: block;
+    width: 100%;
+  }
+}
+
+.modal--brief .modal__inputs-email input {
+  width: 150px;
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-email {
+    max-width: 375px;
+  }
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-email label span:nth-child(1) {
+    display: block;
+    width: 100%;
+  }
+}
+
+.modal--brief .modal__inputs-phone input {
+  width: 168px;
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-phone {
+    display: block;
+  }
+}
+
+.modal--brief .modal__inputs-company input {
+  width: 260px;
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-company {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-company label {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.modal--brief .modal__inputs-website input {
+  width: 200px;
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-website {
+    max-width: 375px;
+  }
+}
+
+@media  screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-website label span:nth-child(1) {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+.modal--brief .modal__textarea textarea {
+  width: 260px;
+  height: 40px;
+}
+
+
+.modal--brief input::placeholder {
+  text-align: center;
+  }

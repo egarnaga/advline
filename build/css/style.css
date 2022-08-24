@@ -8181,11 +8181,7 @@ button,
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    min-height: 100%;
-    padding: 60px 40px; }
-    @media (max-width: 767px) {
-      .modal__wrapper {
-        padding: 60px 16px; } }
+    min-height: 100%; }
   .modal__overlay {
     position: absolute;
     top: 0;
@@ -8195,22 +8191,12 @@ button,
     cursor: pointer; }
   .modal__content {
     position: relative;
-    width: 600px;
+    width: 100vw;
     background-color: #ffffff; }
-    @media (max-width: 767px) {
-      .modal__content {
-        width: 100%; } }
   .modal__close-btn {
     position: absolute;
     top: 35px;
     right: 20px; }
-  .modal--responsive .modal__content {
-    width: 100%; }
-  .modal--fit-content .modal__content {
-    width: auto; }
-    @media (max-width: 767px) {
-      .modal--fit-content .modal__content {
-        width: 100%; } }
   .modal--no-scale {
     -webkit-transform: none;
             transform: none; }
@@ -8477,6 +8463,11 @@ button,
 .modal--brief .modal__inputs--show {
   display: inline; }
 
+/* @media  screen and (max-width: 890px) {
+  .modal--brief .modal__inputs--show {
+    display: block;
+  }
+} */
 .modal--brief .modal__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8549,6 +8540,80 @@ button,
   .modal--brief .modal__button p {
     margin-top: 20px;
     margin-left: 0; } }
+
+.modal--brief .modal__inputs-name input {
+  width: 146px; }
+
+.modal--brief .modal__services select {
+  width: 188px; }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__services {
+    display: block;
+    width: 100%; } }
+
+.modal--brief .modal__inputs-email input {
+  width: 150px; }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-email {
+    max-width: 375px; } }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-email label span:nth-child(1) {
+    display: block;
+    width: 100%; } }
+
+.modal--brief .modal__inputs-phone input {
+  width: 168px; }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-phone {
+    display: block; } }
+
+.modal--brief .modal__inputs-company input {
+  width: 260px; }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-company {
+    display: block;
+    width: 100%; } }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-company label {
+    display: block;
+    width: 100%; } }
+
+.modal--brief .modal__inputs-website input {
+  width: 200px; }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-website {
+    max-width: 375px; } }
+
+@media screen and (max-width: 760px) {
+  .modal--brief .modal__inputs-website label span:nth-child(1) {
+    display: block;
+    width: 100%; } }
+
+.modal--brief .modal__textarea textarea {
+  width: 260px;
+  height: 40px; }
+
+.modal--brief input::-webkit-input-placeholder {
+  text-align: center; }
+
+.modal--brief input::-moz-placeholder {
+  text-align: center; }
+
+.modal--brief input:-ms-input-placeholder {
+  text-align: center; }
+
+.modal--brief input::-ms-input-placeholder {
+  text-align: center; }
+
+.modal--brief input::placeholder {
+  text-align: center; }
 
 .dark-theme {
   background-color: #010302; }

@@ -769,17 +769,18 @@
       </label>
     </div>
 
-    <div class="modal__inputs">
+    <div class="modal__inputs modal__inputs-name">
       <div class="modal__inputs--show">
         <label for="name">Меня зовут</label>
         <span class="modal__inputs-wrap">
           <input id="name" type="text" name="name" placeholder="введите имя" autofocus>
+          <span> , </span>
           <span class="modal__error">Это поле обязательное</span>
         </span>
       </div>
 
       <div class="modal__services">
-        <label for="services"> , и мне требуется </label>
+        <label for="services">и&nbsp;мне&nbsp;требуется </label>
         <select id="services">
           <option>выберите услуги</option>
           <option>Стратегический маркетинг</option>
@@ -799,8 +800,8 @@
     <div class="modal__inputs">
 
 
-      <div class="modal__inputs--show">
-        <label for="email">Вы можете связаться со мной по электронной почте</label>
+      <div class="modal__inputs--show modal__inputs-email">
+        <label for="email"><span>Вы можете связаться со мной </span><span>по электронной почте</span></label>
         <span class="modal__inputs-wrap">
           <input id="email" type="email" value="" placeholder="введите email">
           <span class="modal__error">Это поле обязательное</span>
@@ -808,7 +809,7 @@
       </div>
 
 
-      <div class="modal__inputs--hidden">
+      <div class="modal__inputs--hidden modal__inputs-phone">
         <label for="phone">или по телефону</label>
         <span class="modal__inputs-wrap">
           <input id="phone" type="tel" placeholder="введите телефон">
@@ -819,17 +820,18 @@
     </div>
 
     <div class="modal__inputs">
-      <div class="modal__inputs--hidden">
+      <div class="modal__inputs--hidden modal__inputs-company">
         <label for="name-company">Наша компания называется </label>
 
         <span class="modal__inputs-wrap">
           <input type="text" id="name-company" placeholder="введите название компании">
+          <span> , </span>
           <span class="modal__error">Это поле обязательное</span>
         </span>
       </div>
 
-      <div class="modal__inputs--hidden">
-        <label for="website"> , подробнее можете посмотреть на нашем сайте </label>
+      <div class="modal__inputs--hidden modal__inputs-website">
+        <label for="website"><span>подробнее можете посмотреть </span><span>на нашем сайте </span></label>
         <span class="modal__inputs-wrap">
           <input type="url" id="website" placeholder="введите адрес сайта">
           <span class="modal__error">Это поле обязательное</span>
