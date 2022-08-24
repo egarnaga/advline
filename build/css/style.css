@@ -8666,7 +8666,7 @@ button,
 .dark-theme .main-nav__link:hover {
   color: #DE054C; }
 
-.dark-theme .main-nav__link--active {
+.dark-theme .main-nav .main-nav__item .main-nav__link--active {
   color: #DE054C; }
 
 .dark-theme .main-nav--opened .main-nav__link {
