@@ -10,6 +10,7 @@ import {mobileProcessSlider} from './modules/mobile-process-slider';
 import {mobileArticleSlider} from './modules/mobile-article-slider';
 import {briefToggle} from './modules/brief-toggle';
 import {formValidation} from './modules/form-validation';
+import {hoverMenu} from './modules/hover-menu';
 
 // Utils
 // ---------------------------------
@@ -29,3 +30,4 @@ mobileProcessSlider();
 mobileArticleSlider();
 briefToggle();
 formValidation();
+hoverMenu();
