@@ -151,3 +151,30 @@
     display: none;
   }
 }
+
+.service__btn-scroll a {
+  display: block;
+  line-height: 0;
+
+  width: 80px;
+  height: 80px;
+
+  border-radius: 100%;
+  background-image: url(../img/svg/scroll.svg);
+  background-repeat: no-repeat;
+
+}
+
+@media  screen and (max-width: 768px) {
+  .service__btn-scroll a {
+
+    width: 47px;
+    height: 47px;
+
+    background-size: 47px 47px;
+  }
+}
+
+.service__btn-scroll a:hover {
+  background-image: url(../img/svg/scroll-hover.svg);
+}

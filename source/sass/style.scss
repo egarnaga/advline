@@ -67,6 +67,13 @@
 @import "blocks/dark-theme";
 
 
+@import "blocks/ui-buttons";
+@import "blocks/ui-links";
+@import "blocks/ui-tags";
+
+
+
+
 // используйте это для отключения ховеров на тач устройствах
 // ! но не используйте это для текстовых полей ( input, textarea )
 // также для любых transition обязательно указывайте transition-property

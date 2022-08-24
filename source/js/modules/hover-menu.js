@@ -40,12 +40,9 @@ const hoverMenu = () => {
     }
   }
 
-  console.log(mainNav);
 
 
   if (mainNav) {
-
-    console.log('1');
 
     for (const item of mainNav) {
       item.addEventListener('mouseover', function(event) {
@@ -60,12 +57,9 @@ const hoverMenu = () => {
 
   if (mainNav) {
 
-    console.log('1');
-
     for (const item of mainNav) {
       item.addEventListener('mouseout', function(event) {
         event.preventDefault();
-
 
         for (const item of mainNavItems) {
           item.classList.remove('main-nav__item--opacity');
@@ -78,7 +72,6 @@ const hoverMenu = () => {
     for (const item of mainNavItems) {
       item.addEventListener('mouseover', function(event) {
         event.preventDefault();
-        console.log('сработало')
 
         item.classList.add('main-nav__item--active');
       });

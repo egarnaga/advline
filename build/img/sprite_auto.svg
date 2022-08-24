@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrow-corner" viewBox="0 0 38 38">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-arrow-corner-light" viewBox="0 0 18 18">
+<path d="M1 17H17M17 17V1M17 17L1 1" stroke="white"/>
+</symbol><symbol id="icon-arrow-corner" viewBox="0 0 38 38">
 <path d="M1 37H37M37 37V1M37 37L1 1" stroke="#2B2B2B" stroke-width="2"/>
 </symbol><symbol id="icon-back" viewBox="0 0 16 16">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.85796 7.46667L8.46393 0.816L7.89874 0L9.53674e-07 8.0224L7.89874 16L8.46481 15.1851L1.85708 8.53333H16V7.46667L1.85796 7.46667Z" fill="black"/>
@@ -13,7 +15,4 @@
 </symbol><symbol id="icon-play" viewBox="0 0 100 100">
 <rect width="100" height="100" rx="50" fill="white"/>
 <path d="M46 59L62 50.5L46 42V59Z" fill="#DE054C"/>
-</symbol><symbol id="icon-scroll" viewBox="0 0 80 80">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M39.1667 51.5163L28.775 39.1301L27.5 40.1899L40.035 55L52.5 40.1899L51.2267 39.1285L40.8333 51.518V25H39.1667V51.5163Z" fill="#010302"/>
-<rect x="0.5" y="0.5" width="79" height="79" rx="39.5" stroke="#010302"/>
 </symbol></svg>

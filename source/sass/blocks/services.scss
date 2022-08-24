@@ -159,13 +159,6 @@
 @media  screen and (max-width: 768px) {
   .services__cards {
     grid-template-columns: repeat(4, 1fr);
-
-    //grid-template-columns: repeat(4, minmax(173px, 358px));
-    //grid-template-columns: repeat(4, fr);
-    //grid-template-columns: 100%;
-
-
-    //gap: 12px;
   }
 }
 

@@ -21,9 +21,20 @@
   display: block;
   line-height: 0;
 
+  width: 80px;
+  height: 80px;
+
 
   border-radius: 100%;
+
+  background-image: url(../img/svg/scroll.svg);
 }
+
+.features__btn a:hover {
+  background-image: url(../img/svg/scroll-hover.svg);
+}
+
+
 
 .features__btn img {
   line-height: 0;
