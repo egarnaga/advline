@@ -22,7 +22,7 @@
   display: flex;
 }
 
-.ui-tag {
+.ui-tag-light {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 20px;
@@ -32,45 +32,79 @@
   font-size: 28px;
   line-height: 34px;
   text-transform: uppercase;
+  color: $color-default-white;
 
+  border: 1px solid $color-default-white;
   border-radius: 20px;
 }
 
-.ui-tag--selected-light {
-  color: #010302;
-  background-color: #fff;
+@media  screen and (max-width: 1200px) {
+  .ui-tag-light {
+    font-size: 22px;
+    line-height: 27px;
+  }
 }
 
-.ui-tag--not-selected-light {
-  color: #fff;
 
-  background-color: transparent;
-  border: 1px solid #fff;
+@media  screen and (max-width: 768px) {
+  .ui-tag-light {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
-.ui-tag--selected-dark {
-  color: #fff;
-  background-color: #010302;
+@media  screen and (max-width: 540px) {
+  .ui-tag-light {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
-.ui-tag--dark-not-selected {
-  color: #010302;
-
-  background-color: transparent;
-  border: 1px solid #010302;
+.ui-tag-light--active {
+  color: $color-text-primary;
+  background-color: $color-default-white;
 }
 
-.ui-tag--adaptive {
-  font-size: 22px;
-  line-height: 27px;
+.ui-tag-dark {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: $color-text-primary;
+
+  border: 1px solid $color-background;
+  border-radius: 20px;
 }
 
-.ui-tag--desktop {
-  font-size: 14px;
-  line-height: 17px;
+@media  screen and (max-width: 1200px) {
+  .ui-tag-dark {
+    font-size: 22px;
+    line-height: 27px;
+  }
 }
 
-.ui-tag--small {
-  font-size: 12px;
-  line-height: 15px;
+
+@media  screen and (max-width: 768px) {
+  .ui-tag-dark {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media  screen and (max-width: 540px) {
+  .ui-tag-dark {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.ui-tag-dark--active {
+  color: $color-default-white;
+
+  background-color: $color-background;
 }

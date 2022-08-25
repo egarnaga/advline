@@ -23,7 +23,7 @@
 }
 
 
-.ui-link {
+.ui-link-desktop {
   font-weight: 400;
   font-size: 28px;
   line-height: 34px;
@@ -33,33 +33,56 @@
   border-bottom: 1px solid #010302;
 }
 
-.ui-link--hover {
-  color: #DE054C;
+.ui-link-desktop:hover {
+  color: $color-primary;
 
-  border-bottom: 1px solid #DE054C;
+  border-bottom: 1px solid $color-primary;
 }
 
-.ui-link--middle {
-  font-size: 18px;
-  line-height: 22px;
+
+@media  screen and (max-width: 768px) {
+  .ui-link-desktop {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
-.ui-link--small {
-  font-size: 14px;
-  line-height: 17px;
+@media  screen and (max-width: 540px) {
+  .ui-link-desktop {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
-.ui-link--big {
+
+
+.ui-link-adaptive {
+  font-weight: 400;
   font-size: 22px;
   line-height: 27px;
+  text-transform: uppercase;
+  color: #010302;
+
+  border-bottom: 1px solid #010302;
 }
 
-.ui-link--adaptive-middle {
-  font-size: 14px;
-  line-height: 17px;
+.ui-link-adaptive:hover {
+  color: $color-primary;
+
+  border-bottom: 1px solid $color-primary;
 }
 
-.ui-link--adaptive-small {
-  font-size: 12px;
-  line-height: 15px;
+@media  screen and (max-width: 768px) {
+  .ui-link-adaptive {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
+
+@media  screen and (max-width: 540px) {
+  .ui-link-adaptive {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
