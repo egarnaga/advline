@@ -1,15 +1,45 @@
 .breadcrumbs {
+  position: relative;
+
+  display: flex;
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
 
+@media  screen and (max-width: 768px) {
+  .breadcrumbs::before {
+    content: "";
+
+    position: absolute;
+
+    top: -45px;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #010302;
+
+    opacity: 0.3;
+
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .breadcrumbs::before  {
+    top: -15px;
+  }
+}
+
 .breadcrumbs li {
+  margin-right: 20px;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #010302;
+  white-space: nowrap;
 
   opacity: 0.2;
 }
@@ -18,6 +48,12 @@
   .breadcrumbs li {
     font-size: 12px;
     line-height: 15px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .breadcrumbs li {
+    margin-right: 15px;
   }
 }
 
