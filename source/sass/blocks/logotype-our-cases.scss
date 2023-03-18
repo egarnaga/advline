@@ -1,0 +1,56 @@
+.logotype-our-cases__wrap h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 46px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-our-cases__wrap h2 {
+    font-size: 26px;
+    line-height: 27px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-our-cases__wrap h2 {
+    font-size: 22px;
+  }
+}
+
+.logotype-our-cases__wrapper {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.logotype-our-cases__description h3 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.logotype-our-cases__description span {
+  font-size: 14px;
+  line-height: 17px;
+
+  opacity: 0.4;
+}
+
+.logotype-our-cases__card a p {
+  margin: 0;
+
+  font-size: 28px;
+  line-height: 34px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-our-cases__card a p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

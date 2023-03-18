@@ -1,0 +1,57 @@
+.logotype-work__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.logotype-work__description h3 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-work__description h3 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.logotype-work__description p {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-work__description p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.logotype-work__header h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 78px;
+  line-height: 82px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-work__header h2 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-work__header h2 {
+    font-size: 35px;
+    line-height: 37px;
+  }
+}

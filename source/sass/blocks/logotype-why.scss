@@ -1,0 +1,57 @@
+.logotype-why__header h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-why__header h2 {
+
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-why__header h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.logotype-why__list {
+  margin: 0;
+}
+
+.logotype-why__list dt {
+  font-size: 78px;
+  line-height: 101px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-why__list dt {
+    font-size: 56px;
+    line-height: 73px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-why__list dt {
+    font-size: 48px;
+    line-height: 62px;
+  }
+}
+
+.logotype-why__list dd {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 23px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-why__list dd {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

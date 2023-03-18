@@ -1,0 +1,34 @@
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.breadcrumbs li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #010302;
+
+  opacity: 0.2;
+}
+
+@media  screen and (max-width: 768px) {
+  .breadcrumbs li {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.breadcrumbs li:nth-child(2n) {
+  opacity: 0.4;
+}
+
+.breadcrumbs li:nth-child(3n) {
+  opacity: 0.6;
+}
+
+.breadcrumbs li:nth-child(4n) {
+  opacity: 0.8;
+}

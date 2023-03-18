@@ -1,0 +1,55 @@
+.logotype-main__description h1 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 119px;
+  line-height: 113px;
+  color: #010302;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-main__description h1 {
+    font-size: 56px;
+    line-height: 59px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-main__description h1 {
+    font-size: 33px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #1E1E1E;
+  }
+}
+
+.logotype-main__description p {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #010302;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-main__description p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.logotype-main__btn a {
+  font-size: 28px;
+  line-height: 34px;
+
+  background-color: #DE054C;
+  border-radius: 90px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-main__btn a {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}

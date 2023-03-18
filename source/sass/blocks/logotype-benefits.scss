@@ -1,0 +1,63 @@
+.logotype-benefits__header h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits__header h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+
+.logotype-benefits__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.logotype-benefits__list li span {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-benefits__list li span {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits__list li span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.logotype-benefits__list li p {
+  margin: 0;
+
+  font-size: 28px;
+  line-height: 36px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-benefits__list li p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits__list li p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

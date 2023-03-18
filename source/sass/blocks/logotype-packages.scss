@@ -1,0 +1,97 @@
+.logotype-packages__wrap h2 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+
+.logotype-packages__wrapper {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.logotype-packages__wrapper .logotype-packages__card:nth-child(2n) {
+  color: #FFFFFF;
+
+  background-color: #010302;
+}
+
+.logotype-packages__description h3 {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-packages__description h3 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.logotype-packages__description span {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-packages__description span {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+
+.logotype-packages__card p {
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0.6;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-packages__card p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.logotype-packages__card ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.logotype-packages__card ul li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-packages__card ul li {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+.logotype-packages__price {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 44px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-packages__price {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
