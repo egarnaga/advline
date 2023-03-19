@@ -8236,25 +8236,439 @@ button,
     font-size: 14px;
     line-height: 18px; } }
 
+.logotype-our-cases {
+  padding-top: 75px;
+  padding-bottom: 63px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases {
+    padding-top: 29px;
+    padding-bottom: 53px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases {
+    padding-top: 12px;
+    padding-bottom: 26px; } }
+
+.logotype-our-cases__wrap {
+  width: 100%;
+  margin-bottom: 66px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__wrap {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-bottom: 28px;
+    padding-right: 2px; } }
+
 .logotype-our-cases__wrap h2 {
   margin: 0;
+  margin-left: 33%;
+  padding-left: 20px;
   font-weight: 400;
   font-size: 44px;
   line-height: 46px; }
 
 @media screen and (max-width: 768px) {
   .logotype-our-cases__wrap h2 {
+    margin-left: 32%;
     font-size: 26px;
     line-height: 27px; } }
 
 @media screen and (max-width: 580px) {
   .logotype-our-cases__wrap h2 {
+    margin-left: 0;
+    padding-left: 10px;
     font-size: 22px; } }
 
+.logotype-our-cases__pagination {
+  display: none; }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__pagination span {
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #010302;
+    opacity: 0.45;
+    cursor: pointer; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    cursor: default; } }
+
+.logotype-our-cases__container {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  padding-left: calc((100% - 81.22222em)/2 - 50px);
+  overflow: hidden;
+  list-style: none;
+  z-index: 1; }
+
+@media screen and (max-width: 1440px) {
+  .logotype-our-cases__container {
+    padding-left: 20px; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__container {
+    padding-right: 20px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__container {
+    padding-left: 10px;
+    padding-right: 0; } }
+
 .logotype-our-cases__wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  z-index: 1;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__wrapper {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    grid: repeat(2, 377px)/repeat(2, 1fr); } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.logotype-our-cases__card {
+  position: relative;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card {
+    margin-right: 0 !important; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card {
+    width: 320px;
+    height: 262px; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card a {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(1) {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(2) {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 4; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(4) {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(6) {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(7) {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+    -ms-grid-column-span: 1;
+    grid-column-end: 4; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(3) {
+    display: none; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(3) {
+    display: block; } }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(5) {
+    display: none; } }
+
+.logotype-our-cases__card:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 550px;
+  width: 460px;
+  border: 1px solid #000000; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(7) {
+    height: 270px;
+    width: auto;
+    width: 236px;
+    max-width: 236px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+@media screen and (max-width: 645px) {
+  .logotype-our-cases__card:nth-child(7) {
+    width: 200px;
+    max-width: 200px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(7) {
+    display: none; } }
+
+.logotype-our-cases__card:nth-child(3) a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.logotype-our-cases__card:nth-child(5) a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.logotype-our-cases__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__img {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__img {
+    margin-bottom: 15px; } }
+
+.logotype-our-cases__card:nth-child(1) .logotype-our-cases__img {
+  height: 390px;
+  width: 460px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(1) .logotype-our-cases__img {
+    height: 340px;
+    width: 100%;
+    max-width: 100%; } }
+
+.logotype-our-cases__card:nth-child(2) .logotype-our-cases__img {
+  height: 550px;
+  width: 695px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(2) .logotype-our-cases__img {
+    height: 270px;
+    width: 100%;
+    max-width: 100%; } }
+
+.logotype-our-cases__card:nth-child(3) .logotype-our-cases__img {
+  height: 390px;
+  width: 460px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(3) .logotype-our-cases__img {
+    width: 100%;
+    max-width: 100%; } }
+
+.logotype-our-cases__card:nth-child(4) .logotype-our-cases__img {
+  height: 550px;
+  width: 460px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(4) .logotype-our-cases__img {
+    height: 270px;
+    width: 100%;
+    max-width: 100%; } }
+
+.logotype-our-cases__card:nth-child(5) .logotype-our-cases__img {
+  height: 390px;
+  width: 695px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(5) .logotype-our-cases__img {
+    height: auto;
+    width: auto; } }
+
+.logotype-our-cases__card:nth-child(6) .logotype-our-cases__img {
+  height: 550px;
+  width: 460px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(6) .logotype-our-cases__img {
+    height: 340px;
+    width: 100%;
+    max-width: 100%; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(1) .logotype-our-cases__img,
+  .logotype-our-cases__card:nth-child(2) .logotype-our-cases__img,
+  .logotype-our-cases__card:nth-child(3) .logotype-our-cases__img,
+  .logotype-our-cases__card:nth-child(4) .logotype-our-cases__img,
+  .logotype-our-cases__card:nth-child(5) .logotype-our-cases__img,
+  .logotype-our-cases__card:nth-child(6) .logotype-our-cases__img {
+    height: 230px;
+    width: 320%; } }
+
+.logotype-our-cases__card:nth-child(1) .logotype-our-cases__img img {
+  width: 197px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(1) .logotype-our-cases__img img {
+    width: 143px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(1) .logotype-our-cases__img img {
+    width: 137px; } }
+
+.logotype-our-cases__card:nth-child(2) .logotype-our-cases__img img {
+  width: 413px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(2) .logotype-our-cases__img img {
+    width: 312px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(2) .logotype-our-cases__img img {
+    width: 208px; } }
+
+.logotype-our-cases__card:nth-child(3) .logotype-our-cases__img img {
+  width: 208px; }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(3) .logotype-our-cases__img img {
+    width: 166px; } }
+
+.logotype-our-cases__card:nth-child(4) .logotype-our-cases__img img {
+  width: 245px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(4) .logotype-our-cases__img img {
+    width: 128px; } }
+
+.logotype-our-cases__card:nth-child(5) .logotype-our-cases__img img {
+  width: 424px; }
+
+.logotype-our-cases__card:nth-child(6) .logotype-our-cases__img img {
+  width: 219px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(6) .logotype-our-cases__img img {
+    width: 135px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__card:nth-child(6) .logotype-our-cases__img img {
+    width: 104px; } }
+
+.logotype-our-cases__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .logotype-our-cases__description h3 {
   margin: 0;
@@ -8267,6 +8681,18 @@ button,
   line-height: 17px;
   opacity: 0.4; }
 
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(7) a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
 .logotype-our-cases__card a p {
   margin: 0;
   font-size: 28px;
@@ -8276,6 +8702,57 @@ button,
   .logotype-our-cases__card a p {
     font-size: 14px;
     line-height: 17px; } }
+
+.logotype-our-cases__card:nth-child(7) a p {
+  position: relative;
+  padding-right: 81px;
+  padding-left: 73px; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(7) a p {
+    padding-left: 0;
+    padding-right: 35px; } }
+
+.logotype-our-cases__card:nth-child(7) a p::before {
+  content: "";
+  position: absolute;
+  margin-top: -12.5px;
+  top: 50%;
+  right: 0;
+  width: 30px;
+  height: 25px;
+  background-image: url(../img/svg/arrow-cases.svg);
+  background-repeat: no-repeat; }
+
+@media screen and (max-width: 768px) {
+  .logotype-our-cases__card:nth-child(7) a p::before {
+    width: 20px;
+    height: 17px;
+    margin-top: -7.5px; } }
+
+.logotype-our-cases__btn {
+  display: none; }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 40px; } }
+
+@media screen and (max-width: 580px) {
+  .logotype-our-cases__btn a {
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #010302;
+    background-color: #FFFFFF;
+    border: 1px solid #010302;
+    border-radius: 90px; } }
 
 .logotype-work__list {
   margin: 0;

@@ -11,6 +11,7 @@ import {mobileArticleSlider} from './modules/mobile-article-slider';
 import {briefToggle} from './modules/brief-toggle';
 import {formValidation} from './modules/form-validation';
 import {hoverMenu} from './modules/hover-menu';
+import {casesSlider} from './modules/cases-slider';
 
 // Utils
 // ---------------------------------
@@ -31,3 +32,4 @@ mobileArticleSlider();
 briefToggle();
 formValidation();
 hoverMenu();
+casesSlider();
