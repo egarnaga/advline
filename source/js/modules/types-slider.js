@@ -12,6 +12,8 @@ const typesSlider = () => {
         nextEl: '.logotype-types__btn-next',
       },
 
+      slideClass: 'logotype-types__card',
+
       pagination: {
         el: '.logotype-types__pagination',
        clickable: true,

@@ -13,6 +13,7 @@ import {formValidation} from './modules/form-validation';
 import {hoverMenu} from './modules/hover-menu';
 import {casesSlider} from './modules/cases-slider';
 import {typesSlider} from './modules/types-slider';
+import {packagesSlider} from './modules/packages-slider';
 
 // Utils
 // ---------------------------------
@@ -35,3 +36,4 @@ formValidation();
 hoverMenu();
 casesSlider();
 typesSlider();
+packagesSlider();
