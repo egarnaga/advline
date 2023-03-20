@@ -12,6 +12,7 @@ import {briefToggle} from './modules/brief-toggle';
 import {formValidation} from './modules/form-validation';
 import {hoverMenu} from './modules/hover-menu';
 import {casesSlider} from './modules/cases-slider';
+import {typesSlider} from './modules/types-slider';
 
 // Utils
 // ---------------------------------
@@ -33,3 +34,4 @@ briefToggle();
 formValidation();
 hoverMenu();
 casesSlider();
+typesSlider();
