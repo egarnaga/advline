@@ -1,5 +1,56 @@
+.logotype-benefits {
+  padding-top: 83px;
+  padding-bottom: 180px;
+  display: flex;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-benefits  {
+    padding-top: 5px;
+    padding-bottom: 128px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits  {
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 118px;
+  }
+}
+
+.logotype-benefits__header {
+  margin-right: 347px;
+}
+
+@media  screen and (max-width: 1200px) {
+  .logotype-benefits__header  {
+    margin-right: 150px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-benefits__header  {
+    margin-right: 123px;
+  }
+}
+
+@media  screen and (max-width: 630px) {
+  .logotype-benefits__header  {
+    margin-right: 60px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits__header  {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
 .logotype-benefits__header h2 {
   margin: 0;
+  min-width: 123px;
 
   font-weight: 400;
   font-size: 14px;
@@ -13,15 +64,59 @@
   }
 }
 
-
 .logotype-benefits__list {
   margin: 0;
   padding: 0;
+  width: 100%;
 
   list-style: none;
 }
 
+.logotype-benefits__list li {
+  position: relative;
+  display: flex;
+  padding-bottom: 42px;
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-benefits__list li  {
+    padding-bottom: 36px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits__list li  {
+    padding-bottom: 21px;
+  }
+}
+
+.logotype-benefits__list li::before {
+  content: "";
+  position: absolute;
+
+  bottom: 21px;
+
+  width: 100%;
+  height: 1px;
+
+  background-color: rgba(1, 3, 2, 0.3);
+}
+
+@media  screen and (max-width: 768px) {
+  .logotype-benefits__list li::before  {
+    bottom: 16px;
+  }
+}
+
+@media  screen and (max-width: 765px) {
+  .logotype-benefits__list li::before  {
+    bottom: 10px;
+  }
+}
+
 .logotype-benefits__list li span {
+  margin-right: 20px;
+
   font-weight: 600;
   font-size: 28px;
   line-height: 36px;
@@ -31,6 +126,12 @@
   .logotype-benefits__list li span {
     font-size: 18px;
     line-height: 23px;
+  }
+}
+
+@media  screen and (max-width: 580px) {
+  .logotype-benefits__list li span {
+    margin-right: 15px;
   }
 }
 
